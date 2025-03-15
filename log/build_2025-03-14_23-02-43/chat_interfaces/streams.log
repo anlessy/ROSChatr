@@ -1,0 +1,275 @@
+[0.012s] Invoking command in '/home/qyj/chat_ws/build/chat_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qyj/chat_ws/src/chat_interfaces -DCMAKE_INSTALL_PREFIX=/home/qyj/chat_ws/install/chat_interfaces
+[0.203s] -- The C compiler identification is GNU 11.4.0
+[0.334s] -- The CXX compiler identification is GNU 11.4.0
+[0.348s] -- Detecting C compiler ABI info
+[0.462s] -- Detecting C compiler ABI info - done
+[0.470s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.471s] -- Detecting C compile features
+[0.471s] -- Detecting C compile features - done
+[0.475s] -- Detecting CXX compiler ABI info
+[0.586s] -- Detecting CXX compiler ABI info - done
+[0.595s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.596s] -- Detecting CXX compile features
+[0.597s] -- Detecting CXX compile features - done
+[0.601s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.826s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.974s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.982s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.993s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.053s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.446s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.080s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.113s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.115s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.154s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.154s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.154s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.155s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.185s] -- Found PythonExtra: .so  
+[2.226s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.254s] -- Added test 'lint_cmake' to check CMake code style
+[2.259s] -- Added test 'xmllint' to check XML markup files
+[2.265s] -- Configuring done
+[2.302s] -- Generating done
+[2.315s] -- Build files have been written to: /home/qyj/chat_ws/build/chat_interfaces
+[2.327s] Invoked command in '/home/qyj/chat_ws/build/chat_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qyj/chat_ws/src/chat_interfaces -DCMAKE_INSTALL_PREFIX=/home/qyj/chat_ws/install/chat_interfaces
+[2.327s] Invoking command in '/home/qyj/chat_ws/build/chat_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qyj/chat_ws/build/chat_interfaces -- -j2 -l2
+[2.398s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.934s] [  2%] Built target chat_interfaces__cpp
+[2.952s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.690s] [  7%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chat_interfaces/msg/detail/chat_message__functions.c.o[0m
+[3.843s] [ 10%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chat_interfaces/srv/detail/send_message__functions.c.o[0m
+[3.955s] [ 12%] [32m[1mLinking C shared library libchat_interfaces__rosidl_generator_c.so[0m
+[4.067s] [ 12%] Built target chat_interfaces__rosidl_generator_c
+[4.149s] [ 12%] Built target ament_cmake_python_copy_chat_interfaces
+[4.168s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.634s] [ 17%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chat_interfaces/msg/chat_message__type_support.cpp.o[0m
+[5.127s] [ 20%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chat_interfaces/srv/send_message__type_support.cpp.o[0m
+[6.111s] [ 23%] [32m[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_cpp.so[0m
+[6.241s] [ 23%] Built target chat_interfaces__rosidl_typesupport_cpp
+[6.266s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.000s] [ 28%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chat_interfaces/msg/detail/chat_message__type_support_c.cpp.o[0m
+[8.266s] [ 30%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chat_interfaces/srv/detail/send_message__type_support_c.cpp.o[0m
+[9.021s] [ 33%] [32m[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.169s] [ 33%] Built target chat_interfaces__rosidl_typesupport_fastrtps_c
+[9.192s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.765s] [ 38%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chat_interfaces/msg/detail/chat_message__type_support.c.o[0m
+[9.826s] [ 41%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chat_interfaces/srv/detail/send_message__type_support.c.o[0m
+[9.885s] [ 43%] [32m[1mLinking C shared library libchat_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.933s] [ 43%] Built target chat_interfaces__rosidl_typesupport_introspection_c
+[9.952s] [ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.343s] [ 48%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chat_interfaces/msg/chat_message__type_support.cpp.o[0m
+[10.389s] [ 51%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chat_interfaces/srv/send_message__type_support.cpp.o[0m
+[10.429s] [ 53%] [32m[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_c.so[0m
+[10.493s] [ 53%] Built target chat_interfaces__rosidl_typesupport_c
+[10.511s] [ 56%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.864s] [ 58%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chat_interfaces/msg/detail/dds_fastrtps/chat_message__type_support.cpp.o[0m
+[13.207s] [ 61%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chat_interfaces/srv/detail/dds_fastrtps/send_message__type_support.cpp.o[0m
+[14.281s] [ 64%] [32m[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.551s] [ 64%] Built target chat_interfaces__rosidl_typesupport_fastrtps_cpp
+[14.577s] [ 66%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.685s] [ 69%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chat_interfaces/msg/detail/chat_message__type_support.cpp.o[0m
+[17.069s] [ 71%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chat_interfaces/srv/detail/send_message__type_support.cpp.o[0m
+[18.190s] [ 74%] [32m[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[18.373s] [ 74%] Built target chat_interfaces__rosidl_typesupport_introspection_cpp
+[19.524s] running egg_info
+[19.534s] creating chat_interfaces.egg-info
+[19.535s] writing chat_interfaces.egg-info/PKG-INFO
+[19.536s] writing dependency_links to chat_interfaces.egg-info/dependency_links.txt
+[19.540s] writing top-level names to chat_interfaces.egg-info/top_level.txt
+[19.540s] writing manifest file 'chat_interfaces.egg-info/SOURCES.txt'
+[19.558s] reading manifest file 'chat_interfaces.egg-info/SOURCES.txt'
+[19.564s] writing manifest file 'chat_interfaces.egg-info/SOURCES.txt'
+[19.707s] [ 74%] Built target ament_cmake_python_build_chat_interfaces_egg
+[19.817s] [ 74%] Built target chat_interfaces
+[19.888s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.669s] [ 76%] Built target chat_interfaces__py
+[21.742s] [ 79%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat_interfaces/msg/_chat_message_s.c.o[0m
+[22.157s] [ 82%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat_interfaces/srv/_send_message_s.c.o[0m
+[22.462s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/chat_interfaces/libchat_interfaces__rosidl_generator_py.so[0m
+[22.586s] [ 84%] Built target chat_interfaces__rosidl_generator_py
+[22.639s] [ 87%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.935s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.090s] [ 89%] Built target chat_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[23.167s] [ 92%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.487s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.615s] [ 94%] Built target chat_interfaces__rosidl_typesupport_introspection_c__pyext
+[23.660s] [ 97%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[23.898s] [100%] [32m[1mLinking C shared library rosidl_generator_py/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.981s] [100%] Built target chat_interfaces__rosidl_typesupport_c__pyext
+[24.007s] Invoked command in '/home/qyj/chat_ws/build/chat_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qyj/chat_ws/build/chat_interfaces -- -j2 -l2
+[24.021s] Invoking command in '/home/qyj/chat_ws/build/chat_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qyj/chat_ws/build/chat_interfaces
+[24.042s] -- Install configuration: ""
+[24.042s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/ament_index/resource_index/rosidl_interfaces/chat_interfaces
+[24.042s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces
+[24.042s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg
+[24.043s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/chat_message.h
+[24.043s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_generator_c__visibility_control.h
+[24.043s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail
+[24.043s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__functions.h
+[24.043s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__functions.c
+[24.043s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__struct.h
+[24.044s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.h
+[24.044s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv
+[24.044s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/send_message.h
+[24.044s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail
+[24.044s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__struct.h
+[24.045s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.h
+[24.045s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__functions.h
+[24.047s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__functions.c
+[24.050s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/library_path.sh
+[24.051s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/library_path.dsv
+[24.051s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_c.so
+[24.051s] -- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_c.so" to ""
+[24.051s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces
+[24.051s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg
+[24.051s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.052s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail
+[24.052s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_fastrtps_c.h
+[24.052s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv
+[24.052s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail
+[24.052s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_fastrtps_c.h
+[24.053s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_c.so
+[24.054s] -- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[24.054s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces
+[24.054s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg
+[24.055s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.055s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail
+[24.056s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.c
+[24.056s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_introspection_c.h
+[24.056s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv
+[24.056s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail
+[24.056s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.c
+[24.056s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_introspection_c.h
+[24.056s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_c.so
+[24.056s] -- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[24.056s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_c.so
+[24.057s] -- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_c.so" to ""
+[24.057s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces
+[24.057s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg
+[24.058s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/chat_message.hpp
+[24.061s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[24.063s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail
+[24.064s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__builder.hpp
+[24.064s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__struct.hpp
+[24.068s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.hpp
+[24.069s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__traits.hpp
+[24.069s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv
+[24.069s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/send_message.hpp
+[24.071s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail
+[24.071s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__builder.hpp
+[24.071s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__struct.hpp
+[24.072s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__traits.hpp
+[24.073s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.hpp
+[24.073s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces
+[24.073s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg
+[24.074s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.074s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail
+[24.075s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/dds_fastrtps
+[24.075s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_fastrtps_cpp.hpp
+[24.075s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv
+[24.075s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail
+[24.076s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/dds_fastrtps
+[24.076s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_fastrtps_cpp.hpp
+[24.076s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[24.076s] -- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[24.076s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces
+[24.076s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg
+[24.076s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail
+[24.076s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.cpp
+[24.076s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_introspection_cpp.hpp
+[24.076s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv
+[24.076s] -- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail
+[24.077s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_introspection_cpp.hpp
+[24.077s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.cpp
+[24.077s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_cpp.so
+[24.078s] -- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[24.078s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_cpp.so
+[24.078s] -- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_cpp.so" to ""
+[24.078s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/pythonpath.sh
+[24.078s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/pythonpath.dsv
+[24.079s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info
+[24.081s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[24.082s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[24.083s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[24.083s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[24.083s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces
+[24.083s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_c.c
+[24.083s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.083s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg
+[24.083s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/_chat_message_s.c
+[24.084s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/__init__.py
+[24.084s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/_chat_message.py
+[24.084s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[24.084s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[24.084s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.084s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/libchat_interfaces__rosidl_generator_py.so
+[24.084s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.084s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/__init__.py
+[24.084s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv
+[24.084s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/_send_message_s.c
+[24.084s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/_send_message.py
+[24.084s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/__init__.py
+[24.181s] Listing '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces'...
+[24.181s] Compiling '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/__init__.py'...
+[24.182s] Listing '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg'...
+[24.182s] Compiling '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/__init__.py'...
+[24.183s] Compiling '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/_chat_message.py'...
+[24.184s] Listing '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv'...
+[24.185s] Compiling '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/__init__.py'...
+[24.185s] Compiling '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/_send_message.py'...
+[24.195s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.197s] -- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.199s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.200s] -- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.200s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.202s] -- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.202s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_py.so
+[24.202s] -- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_py.so" to ""
+[24.202s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/msg/ChatMessage.idl
+[24.202s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/srv/SendMessage.idl
+[24.203s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/msg/ChatMessage.msg
+[24.203s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/srv/SendMessage.srv
+[24.203s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/srv/SendMessage_Request.msg
+[24.203s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/srv/SendMessage_Response.msg
+[24.203s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/ament_index/resource_index/package_run_dependencies/chat_interfaces
+[24.203s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/ament_index/resource_index/parent_prefix_path/chat_interfaces
+[24.204s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/ament_prefix_path.sh
+[24.204s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/ament_prefix_path.dsv
+[24.204s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/path.sh
+[24.205s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/path.dsv
+[24.205s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/local_setup.bash
+[24.205s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/local_setup.sh
+[24.205s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/local_setup.zsh
+[24.207s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/local_setup.dsv
+[24.208s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/package.dsv
+[24.208s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/ament_index/resource_index/packages/chat_interfaces
+[24.208s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_cExport.cmake
+[24.210s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_cExport-noconfig.cmake
+[24.210s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[24.210s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[24.210s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[24.210s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[24.210s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cExport.cmake
+[24.210s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[24.210s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_cppExport.cmake
+[24.211s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.212s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[24.212s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[24.212s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[24.212s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cppExport.cmake
+[24.213s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[24.213s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_pyExport.cmake
+[24.213s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[24.213s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/rosidl_cmake-extras.cmake
+[24.214s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.214s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[24.214s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[24.214s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.214s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.214s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.214s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfacesConfig.cmake
+[24.214s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfacesConfig-version.cmake
+[24.214s] -- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/package.xml
+[24.217s] Invoked command in '/home/qyj/chat_ws/build/chat_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qyj/chat_ws/build/chat_interfaces

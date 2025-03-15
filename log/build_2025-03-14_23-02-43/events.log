@@ -1,0 +1,588 @@
+[0.000000] (-) TimerEvent: {}
+[0.000816] (chat_interfaces) JobQueued: {'identifier': 'chat_interfaces', 'dependencies': OrderedDict()}
+[0.000887] (chat_system) JobQueued: {'identifier': 'chat_system', 'dependencies': OrderedDict([('chat_interfaces', '/home/qyj/chat_ws/install/chat_interfaces')])}
+[0.000931] (chat_interfaces) JobStarted: {'identifier': 'chat_interfaces'}
+[0.012101] (chat_interfaces) JobProgress: {'identifier': 'chat_interfaces', 'progress': 'cmake'}
+[0.012911] (chat_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/qyj/chat_ws/src/chat_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/qyj/chat_ws/install/chat_interfaces'], 'cwd': '/home/qyj/chat_ws/build/chat_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'qyj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/qyj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1620'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=acb11f0b8d8a9afc735ab36667d444d7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qyj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qyj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qyj:@/tmp/.ICE-unix/1620,unix/qyj:/tmp/.ICE-unix/1620'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ad09d4eb_7b05_454b_9e19_ae66a0ba830d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6KQC32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qyj/chat_ws/build/chat_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=acb11f0b8d8a9afc735ab36667d444d7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099322] (-) TimerEvent: {}
+[0.200414] (-) TimerEvent: {}
+[0.203635] (chat_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300915] (-) TimerEvent: {}
+[0.334475] (chat_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.348720] (chat_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.401393] (-) TimerEvent: {}
+[0.462519] (chat_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.470922] (chat_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.471364] (chat_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.472144] (chat_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.475587] (chat_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501821] (-) TimerEvent: {}
+[0.586724] (chat_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.596118] (chat_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.596499] (chat_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.597308] (chat_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.601868] (chat_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.602019] (-) TimerEvent: {}
+[0.703659] (-) TimerEvent: {}
+[0.805838] (-) TimerEvent: {}
+[0.826747] (chat_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.906557] (-) TimerEvent: {}
+[0.974345] (chat_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.982647] (chat_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.993168] (chat_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.007225] (-) TimerEvent: {}
+[1.053912] (chat_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.107482] (-) TimerEvent: {}
+[1.208611] (-) TimerEvent: {}
+[1.309308] (-) TimerEvent: {}
+[1.410045] (-) TimerEvent: {}
+[1.446749] (chat_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.510385] (-) TimerEvent: {}
+[1.612334] (-) TimerEvent: {}
+[1.713598] (-) TimerEvent: {}
+[1.719251] (chat_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.815593] (-) TimerEvent: {}
+[1.917459] (-) TimerEvent: {}
+[2.019639] (-) TimerEvent: {}
+[2.080962] (chat_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.114061] (chat_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.116075] (chat_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.120774] (-) TimerEvent: {}
+[2.153979] (chat_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.154634] (chat_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.154844] (chat_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.155204] (chat_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.185362] (chat_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.221008] (-) TimerEvent: {}
+[2.226502] (chat_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.254911] (chat_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.260097] (chat_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.266159] (chat_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.302670] (chat_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.316161] (chat_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/qyj/chat_ws/build/chat_interfaces\n'}
+[2.321399] (-) TimerEvent: {}
+[2.325241] (chat_interfaces) CommandEnded: {'returncode': 0}
+[2.327814] (chat_interfaces) JobProgress: {'identifier': 'chat_interfaces', 'progress': 'build'}
+[2.327841] (chat_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/qyj/chat_ws/build/chat_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/qyj/chat_ws/build/chat_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'qyj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/qyj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1620'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=acb11f0b8d8a9afc735ab36667d444d7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qyj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qyj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qyj:@/tmp/.ICE-unix/1620,unix/qyj:/tmp/.ICE-unix/1620'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ad09d4eb_7b05_454b_9e19_ae66a0ba830d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6KQC32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qyj/chat_ws/build/chat_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=acb11f0b8d8a9afc735ab36667d444d7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.398896] (chat_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.421959] (-) TimerEvent: {}
+[2.522725] (-) TimerEvent: {}
+[2.623359] (-) TimerEvent: {}
+[2.724118] (-) TimerEvent: {}
+[2.824741] (-) TimerEvent: {}
+[2.926142] (-) TimerEvent: {}
+[2.934898] (chat_interfaces) StdoutLine: {'line': b'[  2%] Built target chat_interfaces__cpp\n'}
+[2.951905] (chat_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.027618] (-) TimerEvent: {}
+[3.128331] (-) TimerEvent: {}
+[3.229000] (-) TimerEvent: {}
+[3.329822] (-) TimerEvent: {}
+[3.432447] (-) TimerEvent: {}
+[3.533157] (-) TimerEvent: {}
+[3.633829] (-) TimerEvent: {}
+[3.690502] (chat_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chat_interfaces/msg/detail/chat_message__functions.c.o\x1b[0m\n'}
+[3.734078] (-) TimerEvent: {}
+[3.834748] (-) TimerEvent: {}
+[3.840787] (chat_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chat_interfaces/srv/detail/send_message__functions.c.o\x1b[0m\n'}
+[3.935465] (-) TimerEvent: {}
+[3.956310] (chat_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libchat_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.035681] (-) TimerEvent: {}
+[4.067471] (chat_interfaces) StdoutLine: {'line': b'[ 12%] Built target chat_interfaces__rosidl_generator_c\n'}
+[4.137362] (-) TimerEvent: {}
+[4.148848] (chat_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_chat_interfaces\n'}
+[4.168760] (chat_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.240075] (-) TimerEvent: {}
+[4.342499] (-) TimerEvent: {}
+[4.443044] (-) TimerEvent: {}
+[4.543735] (-) TimerEvent: {}
+[4.634713] (chat_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chat_interfaces/msg/chat_message__type_support.cpp.o\x1b[0m\n'}
+[4.644562] (-) TimerEvent: {}
+[4.745463] (-) TimerEvent: {}
+[4.846407] (-) TimerEvent: {}
+[4.947211] (-) TimerEvent: {}
+[5.048286] (-) TimerEvent: {}
+[5.128257] (chat_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chat_interfaces/srv/send_message__type_support.cpp.o\x1b[0m\n'}
+[5.148573] (-) TimerEvent: {}
+[5.250411] (-) TimerEvent: {}
+[5.351552] (-) TimerEvent: {}
+[5.452795] (-) TimerEvent: {}
+[5.554889] (-) TimerEvent: {}
+[5.657218] (-) TimerEvent: {}
+[5.759808] (-) TimerEvent: {}
+[5.865776] (-) TimerEvent: {}
+[5.976357] (-) TimerEvent: {}
+[6.080083] (-) TimerEvent: {}
+[6.112075] (chat_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.180295] (-) TimerEvent: {}
+[6.241765] (chat_interfaces) StdoutLine: {'line': b'[ 23%] Built target chat_interfaces__rosidl_typesupport_cpp\n'}
+[6.265839] (chat_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.285900] (-) TimerEvent: {}
+[6.389438] (-) TimerEvent: {}
+[6.492064] (-) TimerEvent: {}
+[6.592785] (-) TimerEvent: {}
+[6.695516] (-) TimerEvent: {}
+[6.796300] (-) TimerEvent: {}
+[6.897585] (-) TimerEvent: {}
+[7.000637] (chat_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chat_interfaces/msg/detail/chat_message__type_support_c.cpp.o\x1b[0m\n'}
+[7.000819] (-) TimerEvent: {}
+[7.101397] (-) TimerEvent: {}
+[7.204884] (-) TimerEvent: {}
+[7.305513] (-) TimerEvent: {}
+[7.413999] (-) TimerEvent: {}
+[7.516660] (-) TimerEvent: {}
+[7.628085] (-) TimerEvent: {}
+[7.744555] (-) TimerEvent: {}
+[7.850245] (-) TimerEvent: {}
+[7.956350] (-) TimerEvent: {}
+[8.056871] (-) TimerEvent: {}
+[8.159297] (-) TimerEvent: {}
+[8.260500] (-) TimerEvent: {}
+[8.266798] (chat_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chat_interfaces/srv/detail/send_message__type_support_c.cpp.o\x1b[0m\n'}
+[8.360793] (-) TimerEvent: {}
+[8.463949] (-) TimerEvent: {}
+[8.564837] (-) TimerEvent: {}
+[8.665421] (-) TimerEvent: {}
+[8.766131] (-) TimerEvent: {}
+[8.866893] (-) TimerEvent: {}
+[8.969594] (-) TimerEvent: {}
+[9.021769] (chat_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.069833] (-) TimerEvent: {}
+[9.170220] (chat_interfaces) StdoutLine: {'line': b'[ 33%] Built target chat_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.170387] (-) TimerEvent: {}
+[9.192435] (chat_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.270807] (-) TimerEvent: {}
+[9.371536] (-) TimerEvent: {}
+[9.475083] (-) TimerEvent: {}
+[9.578977] (-) TimerEvent: {}
+[9.679844] (-) TimerEvent: {}
+[9.765579] (chat_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chat_interfaces/msg/detail/chat_message__type_support.c.o\x1b[0m\n'}
+[9.780115] (-) TimerEvent: {}
+[9.826631] (chat_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chat_interfaces/srv/detail/send_message__type_support.c.o\x1b[0m\n'}
+[9.880772] (-) TimerEvent: {}
+[9.885465] (chat_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libchat_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.933533] (chat_interfaces) StdoutLine: {'line': b'[ 43%] Built target chat_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.952539] (chat_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.982507] (-) TimerEvent: {}
+[10.083136] (-) TimerEvent: {}
+[10.184062] (-) TimerEvent: {}
+[10.285211] (-) TimerEvent: {}
+[10.343253] (chat_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chat_interfaces/msg/chat_message__type_support.cpp.o\x1b[0m\n'}
+[10.386044] (-) TimerEvent: {}
+[10.388424] (chat_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chat_interfaces/srv/send_message__type_support.cpp.o\x1b[0m\n'}
+[10.430034] (chat_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.486852] (-) TimerEvent: {}
+[10.493922] (chat_interfaces) StdoutLine: {'line': b'[ 53%] Built target chat_interfaces__rosidl_typesupport_c\n'}
+[10.512253] (chat_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.587425] (-) TimerEvent: {}
+[10.697661] (-) TimerEvent: {}
+[10.798741] (-) TimerEvent: {}
+[10.899572] (-) TimerEvent: {}
+[11.000710] (-) TimerEvent: {}
+[11.103626] (-) TimerEvent: {}
+[11.207276] (-) TimerEvent: {}
+[11.309466] (-) TimerEvent: {}
+[11.413642] (-) TimerEvent: {}
+[11.527124] (-) TimerEvent: {}
+[11.628586] (-) TimerEvent: {}
+[11.729424] (-) TimerEvent: {}
+[11.833657] (-) TimerEvent: {}
+[11.864276] (chat_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chat_interfaces/msg/detail/dds_fastrtps/chat_message__type_support.cpp.o\x1b[0m\n'}
+[11.934436] (-) TimerEvent: {}
+[12.036015] (-) TimerEvent: {}
+[12.137468] (-) TimerEvent: {}
+[12.240072] (-) TimerEvent: {}
+[12.341315] (-) TimerEvent: {}
+[12.442488] (-) TimerEvent: {}
+[12.543227] (-) TimerEvent: {}
+[12.644247] (-) TimerEvent: {}
+[12.745265] (-) TimerEvent: {}
+[12.846054] (-) TimerEvent: {}
+[12.947446] (-) TimerEvent: {}
+[13.049704] (-) TimerEvent: {}
+[13.150674] (-) TimerEvent: {}
+[13.207555] (chat_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chat_interfaces/srv/detail/dds_fastrtps/send_message__type_support.cpp.o\x1b[0m\n'}
+[13.252356] (-) TimerEvent: {}
+[13.353624] (-) TimerEvent: {}
+[13.454953] (-) TimerEvent: {}
+[13.555742] (-) TimerEvent: {}
+[13.656939] (-) TimerEvent: {}
+[13.758275] (-) TimerEvent: {}
+[13.858981] (-) TimerEvent: {}
+[13.959666] (-) TimerEvent: {}
+[14.060416] (-) TimerEvent: {}
+[14.161137] (-) TimerEvent: {}
+[14.261880] (-) TimerEvent: {}
+[14.281351] (chat_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[14.362718] (-) TimerEvent: {}
+[14.463962] (-) TimerEvent: {}
+[14.551290] (chat_interfaces) StdoutLine: {'line': b'[ 64%] Built target chat_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[14.564749] (-) TimerEvent: {}
+[14.577608] (chat_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[14.666560] (-) TimerEvent: {}
+[14.768370] (-) TimerEvent: {}
+[14.870046] (-) TimerEvent: {}
+[14.972361] (-) TimerEvent: {}
+[15.073928] (-) TimerEvent: {}
+[15.176271] (-) TimerEvent: {}
+[15.276982] (-) TimerEvent: {}
+[15.378699] (-) TimerEvent: {}
+[15.480362] (-) TimerEvent: {}
+[15.581207] (-) TimerEvent: {}
+[15.682358] (-) TimerEvent: {}
+[15.685631] (chat_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chat_interfaces/msg/detail/chat_message__type_support.cpp.o\x1b[0m\n'}
+[15.782795] (-) TimerEvent: {}
+[15.886019] (-) TimerEvent: {}
+[15.989781] (-) TimerEvent: {}
+[16.091382] (-) TimerEvent: {}
+[16.192623] (-) TimerEvent: {}
+[16.293394] (-) TimerEvent: {}
+[16.394201] (-) TimerEvent: {}
+[16.495308] (-) TimerEvent: {}
+[16.597826] (-) TimerEvent: {}
+[16.699505] (-) TimerEvent: {}
+[16.800766] (-) TimerEvent: {}
+[16.901665] (-) TimerEvent: {}
+[17.003679] (-) TimerEvent: {}
+[17.069808] (chat_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chat_interfaces/srv/detail/send_message__type_support.cpp.o\x1b[0m\n'}
+[17.104077] (-) TimerEvent: {}
+[17.204705] (-) TimerEvent: {}
+[17.305473] (-) TimerEvent: {}
+[17.406287] (-) TimerEvent: {}
+[17.508544] (-) TimerEvent: {}
+[17.609735] (-) TimerEvent: {}
+[17.710637] (-) TimerEvent: {}
+[17.812215] (-) TimerEvent: {}
+[17.913047] (-) TimerEvent: {}
+[18.014274] (-) TimerEvent: {}
+[18.115076] (-) TimerEvent: {}
+[18.191215] (chat_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[18.215220] (-) TimerEvent: {}
+[18.316184] (-) TimerEvent: {}
+[18.373231] (chat_interfaces) StdoutLine: {'line': b'[ 74%] Built target chat_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[18.416318] (-) TimerEvent: {}
+[18.518489] (-) TimerEvent: {}
+[18.620315] (-) TimerEvent: {}
+[18.721549] (-) TimerEvent: {}
+[18.822803] (-) TimerEvent: {}
+[18.924896] (-) TimerEvent: {}
+[19.042247] (-) TimerEvent: {}
+[19.143211] (-) TimerEvent: {}
+[19.245339] (-) TimerEvent: {}
+[19.345968] (-) TimerEvent: {}
+[19.448885] (-) TimerEvent: {}
+[19.524399] (chat_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[19.534225] (chat_interfaces) StdoutLine: {'line': b'creating chat_interfaces.egg-info\n'}
+[19.535551] (chat_interfaces) StdoutLine: {'line': b'writing chat_interfaces.egg-info/PKG-INFO\n'}
+[19.536856] (chat_interfaces) StdoutLine: {'line': b'writing dependency_links to chat_interfaces.egg-info/dependency_links.txt\n'}
+[19.540657] (chat_interfaces) StdoutLine: {'line': b'writing top-level names to chat_interfaces.egg-info/top_level.txt\n'}
+[19.541227] (chat_interfaces) StdoutLine: {'line': b"writing manifest file 'chat_interfaces.egg-info/SOURCES.txt'\n"}
+[19.549067] (-) TimerEvent: {}
+[19.558588] (chat_interfaces) StdoutLine: {'line': b"reading manifest file 'chat_interfaces.egg-info/SOURCES.txt'\n"}
+[19.563667] (chat_interfaces) StdoutLine: {'line': b"writing manifest file 'chat_interfaces.egg-info/SOURCES.txt'\n"}
+[19.649561] (-) TimerEvent: {}
+[19.707403] (chat_interfaces) StdoutLine: {'line': b'[ 74%] Built target ament_cmake_python_build_chat_interfaces_egg\n'}
+[19.750523] (-) TimerEvent: {}
+[19.817360] (chat_interfaces) StdoutLine: {'line': b'[ 74%] Built target chat_interfaces\n'}
+[19.852570] (-) TimerEvent: {}
+[19.888219] (chat_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[19.953123] (-) TimerEvent: {}
+[20.053839] (-) TimerEvent: {}
+[20.154685] (-) TimerEvent: {}
+[20.256317] (-) TimerEvent: {}
+[20.357559] (-) TimerEvent: {}
+[20.458850] (-) TimerEvent: {}
+[20.560657] (-) TimerEvent: {}
+[20.663914] (-) TimerEvent: {}
+[20.765201] (-) TimerEvent: {}
+[20.866915] (-) TimerEvent: {}
+[20.968204] (-) TimerEvent: {}
+[21.069462] (-) TimerEvent: {}
+[21.170798] (-) TimerEvent: {}
+[21.272459] (-) TimerEvent: {}
+[21.373255] (-) TimerEvent: {}
+[21.475519] (-) TimerEvent: {}
+[21.576975] (-) TimerEvent: {}
+[21.669575] (chat_interfaces) StdoutLine: {'line': b'[ 76%] Built target chat_interfaces__py\n'}
+[21.677395] (-) TimerEvent: {}
+[21.741702] (chat_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat_interfaces/msg/_chat_message_s.c.o\x1b[0m\n'}
+[21.779805] (-) TimerEvent: {}
+[21.887688] (-) TimerEvent: {}
+[21.988420] (-) TimerEvent: {}
+[22.088959] (-) TimerEvent: {}
+[22.157920] (chat_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat_interfaces/srv/_send_message_s.c.o\x1b[0m\n'}
+[22.189337] (-) TimerEvent: {}
+[22.290027] (-) TimerEvent: {}
+[22.390818] (-) TimerEvent: {}
+[22.461838] (chat_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chat_interfaces/libchat_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[22.491583] (-) TimerEvent: {}
+[22.586078] (chat_interfaces) StdoutLine: {'line': b'[ 84%] Built target chat_interfaces__rosidl_generator_py\n'}
+[22.592550] (-) TimerEvent: {}
+[22.638996] (chat_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[22.692898] (-) TimerEvent: {}
+[22.795785] (-) TimerEvent: {}
+[22.897491] (-) TimerEvent: {}
+[22.931198] (chat_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.998155] (-) TimerEvent: {}
+[23.091042] (chat_interfaces) StdoutLine: {'line': b'[ 89%] Built target chat_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[23.098946] (-) TimerEvent: {}
+[23.167494] (chat_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[23.200580] (-) TimerEvent: {}
+[23.301799] (-) TimerEvent: {}
+[23.404105] (-) TimerEvent: {}
+[23.487404] (chat_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[23.504982] (-) TimerEvent: {}
+[23.606534] (-) TimerEvent: {}
+[23.615487] (chat_interfaces) StdoutLine: {'line': b'[ 94%] Built target chat_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[23.660701] (chat_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[23.709442] (-) TimerEvent: {}
+[23.810104] (-) TimerEvent: {}
+[23.898480] (chat_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[23.912579] (-) TimerEvent: {}
+[23.980554] (chat_interfaces) StdoutLine: {'line': b'[100%] Built target chat_interfaces__rosidl_typesupport_c__pyext\n'}
+[24.007749] (chat_interfaces) CommandEnded: {'returncode': 0}
+[24.008270] (chat_interfaces) JobProgress: {'identifier': 'chat_interfaces', 'progress': 'install'}
+[24.013139] (-) TimerEvent: {}
+[24.021393] (chat_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/qyj/chat_ws/build/chat_interfaces'], 'cwd': '/home/qyj/chat_ws/build/chat_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'qyj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/qyj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1620'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=acb11f0b8d8a9afc735ab36667d444d7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qyj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qyj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qyj:@/tmp/.ICE-unix/1620,unix/qyj:/tmp/.ICE-unix/1620'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ad09d4eb_7b05_454b_9e19_ae66a0ba830d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6KQC32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qyj/chat_ws/build/chat_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=acb11f0b8d8a9afc735ab36667d444d7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[24.041715] (chat_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.042803] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/ament_index/resource_index/rosidl_interfaces/chat_interfaces\n'}
+[24.043030] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces\n'}
+[24.043181] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg\n'}
+[24.043384] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/chat_message.h\n'}
+[24.043511] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[24.043648] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail\n'}
+[24.043916] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__functions.h\n'}
+[24.044059] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__functions.c\n'}
+[24.044143] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__struct.h\n'}
+[24.044364] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.h\n'}
+[24.044553] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv\n'}
+[24.044643] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/send_message.h\n'}
+[24.044923] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail\n'}
+[24.045177] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__struct.h\n'}
+[24.045466] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.h\n'}
+[24.045644] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__functions.h\n'}
+[24.046074] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__functions.c\n'}
+[24.048413] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/library_path.sh\n'}
+[24.051046] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/library_path.dsv\n'}
+[24.051761] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_c.so\n'}
+[24.051954] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_c.so" to ""\n'}
+[24.052038] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces\n'}
+[24.052102] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg\n'}
+[24.052235] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.052420] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail\n'}
+[24.052593] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_fastrtps_c.h\n'}
+[24.052823] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv\n'}
+[24.053054] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail\n'}
+[24.053303] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_fastrtps_c.h\n'}
+[24.053459] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[24.053523] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.054821] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces\n'}
+[24.055058] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg\n'}
+[24.055471] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[24.056001] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail\n'}
+[24.056389] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.c\n'}
+[24.056849] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_introspection_c.h\n'}
+[24.056937] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv\n'}
+[24.056998] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail\n'}
+[24.057057] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.c\n'}
+[24.057162] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_introspection_c.h\n'}
+[24.057235] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[24.057306] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.057366] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_c.so\n'}
+[24.057428] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[24.057485] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces\n'}
+[24.057542] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg\n'}
+[24.058580] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/chat_message.hpp\n'}
+[24.059752] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[24.062869] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail\n'}
+[24.064682] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__builder.hpp\n'}
+[24.064928] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__struct.hpp\n'}
+[24.065506] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.hpp\n'}
+[24.069487] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__traits.hpp\n'}
+[24.069900] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv\n'}
+[24.070204] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/send_message.hpp\n'}
+[24.070975] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail\n'}
+[24.071737] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__builder.hpp\n'}
+[24.072233] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__struct.hpp\n'}
+[24.072457] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__traits.hpp\n'}
+[24.073224] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.hpp\n'}
+[24.073718] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces\n'}
+[24.074051] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg\n'}
+[24.074426] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.074884] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail\n'}
+[24.075330] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/dds_fastrtps\n'}
+[24.075871] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.076167] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv\n'}
+[24.076249] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail\n'}
+[24.076326] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/dds_fastrtps\n'}
+[24.076645] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.076735] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.076802] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.076875] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces\n'}
+[24.076958] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg\n'}
+[24.077070] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail\n'}
+[24.077132] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.cpp\n'}
+[24.077192] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.077258] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv\n'}
+[24.077335] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail\n'}
+[24.077412] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.077791] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.cpp\n'}
+[24.078162] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[24.078448] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.078676] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_cpp.so\n'}
+[24.078780] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[24.078978] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/pythonpath.sh\n'}
+[24.079091] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/pythonpath.dsv\n'}
+[24.079553] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info\n'}
+[24.080223] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[24.082694] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[24.083687] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[24.083946] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[24.084083] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces\n'}
+[24.084162] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[24.084226] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.084290] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg\n'}
+[24.084351] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/_chat_message_s.c\n'}
+[24.084501] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/__init__.py\n'}
+[24.084595] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/_chat_message.py\n'}
+[24.084654] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.084719] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.084780] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.084837] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/libchat_interfaces__rosidl_generator_py.so\n'}
+[24.084894] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.084997] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/__init__.py\n'}
+[24.085055] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv\n'}
+[24.085110] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/_send_message_s.c\n'}
+[24.085167] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/_send_message.py\n'}
+[24.085228] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/__init__.py\n'}
+[24.113833] (-) TimerEvent: {}
+[24.180943] (chat_interfaces) StdoutLine: {'line': b"Listing '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces'...\n"}
+[24.181896] (chat_interfaces) StdoutLine: {'line': b"Compiling '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/__init__.py'...\n"}
+[24.182469] (chat_interfaces) StdoutLine: {'line': b"Listing '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg'...\n"}
+[24.182961] (chat_interfaces) StdoutLine: {'line': b"Compiling '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/__init__.py'...\n"}
+[24.183396] (chat_interfaces) StdoutLine: {'line': b"Compiling '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/_chat_message.py'...\n"}
+[24.184108] (chat_interfaces) StdoutLine: {'line': b"Listing '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv'...\n"}
+[24.185171] (chat_interfaces) StdoutLine: {'line': b"Compiling '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/__init__.py'...\n"}
+[24.185653] (chat_interfaces) StdoutLine: {'line': b"Compiling '/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/_send_message.py'...\n"}
+[24.195833] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.196883] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.198570] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.200497] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.200996] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.202347] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.202515] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_py.so\n'}
+[24.202664] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/qyj/chat_ws/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_py.so" to ""\n'}
+[24.203083] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/msg/ChatMessage.idl\n'}
+[24.203341] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/srv/SendMessage.idl\n'}
+[24.203420] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/msg/ChatMessage.msg\n'}
+[24.203637] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/srv/SendMessage.srv\n'}
+[24.203754] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/srv/SendMessage_Request.msg\n'}
+[24.203863] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/srv/SendMessage_Response.msg\n'}
+[24.204034] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/ament_index/resource_index/package_run_dependencies/chat_interfaces\n'}
+[24.204291] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/ament_index/resource_index/parent_prefix_path/chat_interfaces\n'}
+[24.204677] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/ament_prefix_path.sh\n'}
+[24.204975] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/ament_prefix_path.dsv\n'}
+[24.205324] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/path.sh\n'}
+[24.205616] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/environment/path.dsv\n'}
+[24.205919] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/local_setup.bash\n'}
+[24.206120] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/local_setup.sh\n'}
+[24.206258] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/local_setup.zsh\n'}
+[24.207772] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/local_setup.dsv\n'}
+[24.208373] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/package.dsv\n'}
+[24.208701] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/ament_index/resource_index/packages/chat_interfaces\n'}
+[24.208924] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_cExport.cmake\n'}
+[24.210714] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[24.210905] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.210976] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[24.211088] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.211153] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[24.211218] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[24.211283] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[24.211356] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_cppExport.cmake\n'}
+[24.211427] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.212349] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[24.213117] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.213246] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[24.213309] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[24.213476] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[24.213637] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_pyExport.cmake\n'}
+[24.213704] (-) TimerEvent: {}
+[24.214094] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[24.214360] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[24.214501] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.214620] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.214753] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.214848] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.214944] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.215082] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.215221] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfacesConfig.cmake\n'}
+[24.215297] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfacesConfig-version.cmake\n'}
+[24.215356] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/qyj/chat_ws/install/chat_interfaces/share/chat_interfaces/package.xml\n'}
+[24.217641] (chat_interfaces) CommandEnded: {'returncode': 0}
+[24.297153] (chat_interfaces) JobEnded: {'identifier': 'chat_interfaces', 'rc': 0}
+[24.299005] (chat_system) JobStarted: {'identifier': 'chat_system'}
+[24.314626] (-) TimerEvent: {}
+[24.416685] (-) TimerEvent: {}
+[24.517475] (-) TimerEvent: {}
+[24.618216] (-) TimerEvent: {}
+[24.719013] (-) TimerEvent: {}
+[24.819781] (-) TimerEvent: {}
+[24.920552] (-) TimerEvent: {}
+[25.021336] (-) TimerEvent: {}
+[25.122122] (-) TimerEvent: {}
+[25.222867] (-) TimerEvent: {}
+[25.323625] (-) TimerEvent: {}
+[25.424612] (-) TimerEvent: {}
+[25.528456] (-) TimerEvent: {}
+[25.629468] (-) TimerEvent: {}
+[25.730297] (-) TimerEvent: {}
+[25.758477] (chat_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/chat_system', 'build', '--build-base', '/home/qyj/chat_ws/build/chat_system/build', 'install', '--record', '/home/qyj/chat_ws/build/chat_system/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/qyj/chat_ws/src/chat_system', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'qyj', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/qyj/chat_ws/install/chat_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/qyj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1620', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=acb11f0b8d8a9afc735ab36667d444d7', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'qyj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'qyj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/qyj:@/tmp/.ICE-unix/1620,unix/qyj:/tmp/.ICE-unix/1620', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ad09d4eb_7b05_454b_9e19_ae66a0ba830d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6KQC32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.120', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/qyj/chat_ws/install/chat_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/qyj/chat_ws/build/chat_system', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=acb11f0b8d8a9afc735ab36667d444d7', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/qyj/chat_ws/build/chat_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qyj/chat_ws/install/chat_system/lib/python3.10/site-packages:/home/qyj/chat_ws/install/chat_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/qyj/chat_ws/install/chat_interfaces'}, 'shell': False}
+[25.830760] (-) TimerEvent: {}
+[25.932041] (-) TimerEvent: {}
+[26.033622] (-) TimerEvent: {}
+[26.134958] (-) TimerEvent: {}
+[26.236594] (-) TimerEvent: {}
+[26.338316] (-) TimerEvent: {}
+[26.363100] (chat_system) StdoutLine: {'line': b'running egg_info\n'}
+[26.367115] (chat_system) StdoutLine: {'line': b'creating ../../build/chat_system/chat_system.egg-info\n'}
+[26.368362] (chat_system) StdoutLine: {'line': b'writing ../../build/chat_system/chat_system.egg-info/PKG-INFO\n'}
+[26.371170] (chat_system) StdoutLine: {'line': b'writing dependency_links to ../../build/chat_system/chat_system.egg-info/dependency_links.txt\n'}
+[26.371594] (chat_system) StdoutLine: {'line': b'writing entry points to ../../build/chat_system/chat_system.egg-info/entry_points.txt\n'}
+[26.371818] (chat_system) StdoutLine: {'line': b'writing requirements to ../../build/chat_system/chat_system.egg-info/requires.txt\n'}
+[26.372026] (chat_system) StdoutLine: {'line': b'writing top-level names to ../../build/chat_system/chat_system.egg-info/top_level.txt\n'}
+[26.372196] (chat_system) StdoutLine: {'line': b"writing manifest file '../../build/chat_system/chat_system.egg-info/SOURCES.txt'\n"}
+[26.375038] (chat_system) StdoutLine: {'line': b"reading manifest file '../../build/chat_system/chat_system.egg-info/SOURCES.txt'\n"}
+[26.376202] (chat_system) StdoutLine: {'line': b"writing manifest file '../../build/chat_system/chat_system.egg-info/SOURCES.txt'\n"}
+[26.376733] (chat_system) StdoutLine: {'line': b'running build\n'}
+[26.376946] (chat_system) StdoutLine: {'line': b'running build_py\n'}
+[26.377278] (chat_system) StdoutLine: {'line': b'creating /home/qyj/chat_ws/build/chat_system/build\n'}
+[26.377580] (chat_system) StdoutLine: {'line': b'creating /home/qyj/chat_ws/build/chat_system/build/lib\n'}
+[26.377686] (chat_system) StdoutLine: {'line': b'creating /home/qyj/chat_ws/build/chat_system/build/lib/chat_system\n'}
+[26.377961] (chat_system) StdoutLine: {'line': b'copying chat_system/chat_server.py -> /home/qyj/chat_ws/build/chat_system/build/lib/chat_system\n'}
+[26.378273] (chat_system) StdoutLine: {'line': b'copying chat_system/chat_client.py -> /home/qyj/chat_ws/build/chat_system/build/lib/chat_system\n'}
+[26.379929] (chat_system) StdoutLine: {'line': b'copying chat_system/__init__.py -> /home/qyj/chat_ws/build/chat_system/build/lib/chat_system\n'}
+[26.380854] (chat_system) StdoutLine: {'line': b'running install\n'}
+[26.381330] (chat_system) StdoutLine: {'line': b'running install_lib\n'}
+[26.385197] (chat_system) StdoutLine: {'line': b'creating /home/qyj/chat_ws/install/chat_system/lib/python3.10/site-packages/chat_system\n'}
+[26.385994] (chat_system) StdoutLine: {'line': b'copying /home/qyj/chat_ws/build/chat_system/build/lib/chat_system/chat_server.py -> /home/qyj/chat_ws/install/chat_system/lib/python3.10/site-packages/chat_system\n'}
+[26.387013] (chat_system) StdoutLine: {'line': b'copying /home/qyj/chat_ws/build/chat_system/build/lib/chat_system/chat_client.py -> /home/qyj/chat_ws/install/chat_system/lib/python3.10/site-packages/chat_system\n'}
+[26.387426] (chat_system) StdoutLine: {'line': b'copying /home/qyj/chat_ws/build/chat_system/build/lib/chat_system/__init__.py -> /home/qyj/chat_ws/install/chat_system/lib/python3.10/site-packages/chat_system\n'}
+[26.388737] (chat_system) StdoutLine: {'line': b'byte-compiling /home/qyj/chat_ws/install/chat_system/lib/python3.10/site-packages/chat_system/chat_server.py to chat_server.cpython-310.pyc\n'}
+[26.391535] (chat_system) StdoutLine: {'line': b'byte-compiling /home/qyj/chat_ws/install/chat_system/lib/python3.10/site-packages/chat_system/chat_client.py to chat_client.cpython-310.pyc\n'}
+[26.395603] (chat_system) StdoutLine: {'line': b'byte-compiling /home/qyj/chat_ws/install/chat_system/lib/python3.10/site-packages/chat_system/__init__.py to __init__.cpython-310.pyc\n'}
+[26.396376] (chat_system) StdoutLine: {'line': b'running install_data\n'}
+[26.396804] (chat_system) StdoutLine: {'line': b'creating /home/qyj/chat_ws/install/chat_system/share/ament_index\n'}
+[26.396983] (chat_system) StdoutLine: {'line': b'creating /home/qyj/chat_ws/install/chat_system/share/ament_index/resource_index\n'}
+[26.397149] (chat_system) StdoutLine: {'line': b'creating /home/qyj/chat_ws/install/chat_system/share/ament_index/resource_index/packages\n'}
+[26.398679] (chat_system) StdoutLine: {'line': b'copying resource/chat_system -> /home/qyj/chat_ws/install/chat_system/share/ament_index/resource_index/packages\n'}
+[26.400480] (chat_system) StdoutLine: {'line': b'copying package.xml -> /home/qyj/chat_ws/install/chat_system/share/chat_system\n'}
+[26.400969] (chat_system) StdoutLine: {'line': b'running install_egg_info\n'}
+[26.404342] (chat_system) StdoutLine: {'line': b'Copying ../../build/chat_system/chat_system.egg-info to /home/qyj/chat_ws/install/chat_system/lib/python3.10/site-packages/chat_system-0.0.0-py3.10.egg-info\n'}
+[26.406133] (chat_system) StdoutLine: {'line': b'running install_scripts\n'}
+[26.439099] (-) TimerEvent: {}
+[26.453584] (chat_system) StdoutLine: {'line': b'Installing chat_client script to /home/qyj/chat_ws/install/chat_system/lib/chat_system\n'}
+[26.454480] (chat_system) StdoutLine: {'line': b'Installing chat_server script to /home/qyj/chat_ws/install/chat_system/lib/chat_system\n'}
+[26.454610] (chat_system) StdoutLine: {'line': b"writing list of installed files to '/home/qyj/chat_ws/build/chat_system/install.log'\n"}
+[26.522874] (chat_system) CommandEnded: {'returncode': 0}
+[26.539401] (-) TimerEvent: {}
+[26.540060] (chat_system) JobEnded: {'identifier': 'chat_system', 'rc': 0}
+[26.541836] (-) EventReactorShutdown: {}

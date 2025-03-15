@@ -1,0 +1,7 @@
+{
+  "package_name": "chat_interfaces",
+  "non_idl_tuples": [
+    "/home/qyj/chat_ws/src/chat_interfaces:msg/ChatMessage.msg",
+    "/home/qyj/chat_ws/src/chat_interfaces:srv/SendMessage.srv"
+  ]
+}
