@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qyj/chat_ws/src/chat_interfaces
+CMAKE_SOURCE_DIR = /home/xiye/ROSChatr/src/chat_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qyj/chat_ws/build/chat_interfaces
+CMAKE_BINARY_DIR = /home/xiye/ROSChatr/build/chat_interfaces
 
 # Utility rule file for chat_interfaces__py.
 
@@ -91,8 +91,8 @@ rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_fas
 rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/chat_interfaces/msg/ChatMessage.idl
 rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/chat_interfaces/srv/SendMessage.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/qyj/chat_ws/build/chat_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/qyj/chat_ws/build/chat_interfaces/chat_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/qyj/chat_ws/build/chat_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xiye/ROSChatr/build/chat_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/xiye/ROSChatr/build/chat_interfaces/chat_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/xiye/ROSChatr/build/chat_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_introspection_c.c
@@ -136,10 +136,10 @@ chat_interfaces__py/CMakeFiles/chat_interfaces__py.dir/build: chat_interfaces__p
 .PHONY : chat_interfaces__py/CMakeFiles/chat_interfaces__py.dir/build
 
 chat_interfaces__py/CMakeFiles/chat_interfaces__py.dir/clean:
-	cd /home/qyj/chat_ws/build/chat_interfaces/chat_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/chat_interfaces__py.dir/cmake_clean.cmake
+	cd /home/xiye/ROSChatr/build/chat_interfaces/chat_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/chat_interfaces__py.dir/cmake_clean.cmake
 .PHONY : chat_interfaces__py/CMakeFiles/chat_interfaces__py.dir/clean
 
 chat_interfaces__py/CMakeFiles/chat_interfaces__py.dir/depend:
-	cd /home/qyj/chat_ws/build/chat_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qyj/chat_ws/src/chat_interfaces /home/qyj/chat_ws/build/chat_interfaces/chat_interfaces__py /home/qyj/chat_ws/build/chat_interfaces /home/qyj/chat_ws/build/chat_interfaces/chat_interfaces__py /home/qyj/chat_ws/build/chat_interfaces/chat_interfaces__py/CMakeFiles/chat_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xiye/ROSChatr/build/chat_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xiye/ROSChatr/src/chat_interfaces /home/xiye/ROSChatr/build/chat_interfaces/chat_interfaces__py /home/xiye/ROSChatr/build/chat_interfaces /home/xiye/ROSChatr/build/chat_interfaces/chat_interfaces__py /home/xiye/ROSChatr/build/chat_interfaces/chat_interfaces__py/CMakeFiles/chat_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : chat_interfaces__py/CMakeFiles/chat_interfaces__py.dir/depend
 

@@ -1,0 +1,3 @@
+[console_scripts]
+roschat_ui = roschat_ui.roschat_ui:main
+

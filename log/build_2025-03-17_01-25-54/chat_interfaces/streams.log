@@ -1,0 +1,275 @@
+[0.086s] Invoking command in '/home/xiye/ROSChatr/build/chat_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/xiye/ROSChatr/src/chat_interfaces -DCMAKE_INSTALL_PREFIX=/home/xiye/ROSChatr/install/chat_interfaces
+[0.402s] -- The C compiler identification is GNU 11.4.0
+[0.538s] -- The CXX compiler identification is GNU 11.4.0
+[0.553s] -- Detecting C compiler ABI info
+[0.702s] -- Detecting C compiler ABI info - done
+[0.709s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.715s] -- Detecting C compile features
+[0.716s] -- Detecting C compile features - done
+[0.720s] -- Detecting CXX compiler ABI info
+[0.888s] -- Detecting CXX compiler ABI info - done
+[0.895s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.895s] -- Detecting CXX compile features
+[0.895s] -- Detecting CXX compile features - done
+[1.095s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.786s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.514s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.743s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.319s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.012s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.931s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.410s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.618s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.744s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.744s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.744s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.744s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.781s] -- Found PythonExtra: .so  
+[11.053s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.549s] -- Added test 'lint_cmake' to check CMake code style
+[12.580s] -- Added test 'xmllint' to check XML markup files
+[12.649s] -- Configuring done
+[12.673s] -- Generating done
+[12.681s] -- Build files have been written to: /home/xiye/ROSChatr/build/chat_interfaces
+[12.687s] Invoked command in '/home/xiye/ROSChatr/build/chat_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/xiye/ROSChatr/src/chat_interfaces -DCMAKE_INSTALL_PREFIX=/home/xiye/ROSChatr/install/chat_interfaces
+[12.689s] Invoking command in '/home/xiye/ROSChatr/build/chat_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/xiye/ROSChatr/build/chat_interfaces -- -j12 -l12
+[12.810s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.867s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.900s] [  5%] Built target ament_cmake_python_copy_chat_interfaces
+[13.322s] running egg_info
+[13.323s] creating chat_interfaces.egg-info
+[13.323s] writing chat_interfaces.egg-info/PKG-INFO
+[13.323s] writing dependency_links to chat_interfaces.egg-info/dependency_links.txt
+[13.323s] writing top-level names to chat_interfaces.egg-info/top_level.txt
+[13.323s] writing manifest file 'chat_interfaces.egg-info/SOURCES.txt'
+[13.325s] reading manifest file 'chat_interfaces.egg-info/SOURCES.txt'
+[13.326s] writing manifest file 'chat_interfaces.egg-info/SOURCES.txt'
+[13.442s] [  5%] Built target ament_cmake_python_build_chat_interfaces_egg
+[13.468s] [  5%] Built target chat_interfaces__cpp
+[13.522s] [  7%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chat_interfaces/msg/detail/chat_message__functions.c.o[0m
+[13.541s] [ 10%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chat_interfaces/srv/detail/send_message__functions.c.o[0m
+[13.562s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.567s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.571s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.646s] [ 20%] [32m[1mLinking C shared library libchat_interfaces__rosidl_generator_c.so[0m
+[13.722s] [ 20%] Built target chat_interfaces__rosidl_generator_c
+[13.788s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.791s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.793s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.110s] [ 30%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chat_interfaces/msg/chat_message__type_support.cpp.o[0m
+[14.119s] [ 33%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chat_interfaces/srv/send_message__type_support.cpp.o[0m
+[14.146s] [ 35%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chat_interfaces/msg/detail/chat_message__type_support.cpp.o[0m
+[14.160s] [ 38%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chat_interfaces/srv/detail/send_message__type_support.cpp.o[0m
+[14.175s] [ 41%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chat_interfaces/msg/detail/dds_fastrtps/chat_message__type_support.cpp.o[0m
+[14.182s] [ 43%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chat_interfaces/srv/detail/dds_fastrtps/send_message__type_support.cpp.o[0m
+[14.440s] [ 46%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chat_interfaces/msg/chat_message__type_support.cpp.o[0m
+[14.441s] [ 48%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chat_interfaces/srv/send_message__type_support.cpp.o[0m
+[14.480s] [ 51%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chat_interfaces/msg/detail/chat_message__type_support.c.o[0m
+[14.496s] [ 53%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chat_interfaces/srv/detail/send_message__type_support.c.o[0m
+[14.520s] [ 56%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chat_interfaces/msg/detail/chat_message__type_support_c.cpp.o[0m
+[14.525s] [ 58%] [32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chat_interfaces/srv/detail/send_message__type_support_c.cpp.o[0m
+[14.632s] [ 61%] [32m[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_cpp.so[0m
+[14.636s] [ 64%] [32m[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_c.so[0m
+[14.649s] [ 66%] [32m[1mLinking C shared library libchat_interfaces__rosidl_typesupport_introspection_c.so[0m
+[14.816s] [ 66%] Built target chat_interfaces__rosidl_typesupport_introspection_c
+[14.830s] [ 66%] Built target chat_interfaces__rosidl_typesupport_cpp
+[14.833s] [ 66%] Built target chat_interfaces__rosidl_typesupport_c
+[14.859s] [ 69%] [32m[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.860s] [ 71%] [32m[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[14.988s] [ 74%] [32m[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[15.004s] [ 74%] Built target chat_interfaces__rosidl_typesupport_introspection_cpp
+[15.013s] [ 74%] Built target chat_interfaces__rosidl_typesupport_fastrtps_cpp
+[15.089s] [ 74%] Built target chat_interfaces__rosidl_typesupport_fastrtps_c
+[15.140s] [ 74%] Built target chat_interfaces
+[15.190s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.710s] [ 76%] Built target chat_interfaces__py
+[15.773s] [ 79%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat_interfaces/msg/_chat_message_s.c.o[0m
+[15.774s] [ 82%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat_interfaces/srv/_send_message_s.c.o[0m
+[15.894s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/chat_interfaces/libchat_interfaces__rosidl_generator_py.so[0m
+[15.961s] [ 84%] Built target chat_interfaces__rosidl_generator_py
+[16.073s] [ 87%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.075s] [ 89%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[16.075s] [ 92%] [32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.228s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.230s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.230s] [100%] [32m[1mLinking C shared library rosidl_generator_py/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.350s] [100%] Built target chat_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[16.353s] [100%] Built target chat_interfaces__rosidl_typesupport_c__pyext
+[16.353s] [100%] Built target chat_interfaces__rosidl_typesupport_introspection_c__pyext
+[16.375s] Invoked command in '/home/xiye/ROSChatr/build/chat_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/xiye/ROSChatr/build/chat_interfaces -- -j12 -l12
+[16.394s] Invoking command in '/home/xiye/ROSChatr/build/chat_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/xiye/ROSChatr/build/chat_interfaces
+[16.410s] -- Install configuration: ""
+[16.411s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/ament_index/resource_index/rosidl_interfaces/chat_interfaces
+[16.411s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces
+[16.411s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv
+[16.411s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail
+[16.412s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__functions.h
+[16.412s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.h
+[16.412s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__struct.h
+[16.412s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__functions.c
+[16.412s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/send_message.h
+[16.412s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg
+[16.412s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.412s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/chat_message.h
+[16.412s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail
+[16.412s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__struct.h
+[16.413s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__functions.c
+[16.413s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__functions.h
+[16.413s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.h
+[16.413s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/library_path.sh
+[16.413s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/library_path.dsv
+[16.413s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_c.so
+[16.413s] -- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_c.so" to ""
+[16.413s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces
+[16.413s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv
+[16.414s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail
+[16.414s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_fastrtps_c.h
+[16.414s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg
+[16.414s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.414s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail
+[16.414s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_fastrtps_c.h
+[16.414s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_c.so
+[16.414s] -- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[16.414s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces
+[16.415s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv
+[16.415s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail
+[16.415s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_introspection_c.h
+[16.415s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.c
+[16.415s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg
+[16.415s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail
+[16.415s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_introspection_c.h
+[16.415s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.c
+[16.415s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.415s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_c.so
+[16.415s] -- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[16.415s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_c.so
+[16.415s] -- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_c.so" to ""
+[16.416s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces
+[16.416s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv
+[16.416s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/send_message.hpp
+[16.416s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail
+[16.416s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__builder.hpp
+[16.416s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__struct.hpp
+[16.416s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.hpp
+[16.416s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__traits.hpp
+[16.417s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg
+[16.417s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.417s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail
+[16.417s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__struct.hpp
+[16.417s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__traits.hpp
+[16.417s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__builder.hpp
+[16.417s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.hpp
+[16.417s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/chat_message.hpp
+[16.417s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces
+[16.417s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv
+[16.418s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail
+[16.418s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_fastrtps_cpp.hpp
+[16.418s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/dds_fastrtps
+[16.418s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg
+[16.418s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.418s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail
+[16.418s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_fastrtps_cpp.hpp
+[16.418s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/dds_fastrtps
+[16.419s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.419s] -- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.419s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces
+[16.419s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv
+[16.419s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail
+[16.419s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.cpp
+[16.419s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_introspection_cpp.hpp
+[16.419s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg
+[16.419s] -- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail
+[16.419s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.cpp
+[16.419s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_introspection_cpp.hpp
+[16.419s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_cpp.so
+[16.419s] -- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[16.419s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_cpp.so
+[16.420s] -- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_cpp.so" to ""
+[16.420s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/pythonpath.sh
+[16.420s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/pythonpath.dsv
+[16.420s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info
+[16.420s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[16.420s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[16.420s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[16.420s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[16.420s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces
+[16.421s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.421s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv
+[16.421s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/_send_message_s.c
+[16.421s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/_send_message.py
+[16.421s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/__init__.py
+[16.421s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.421s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg
+[16.421s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/_chat_message_s.c
+[16.422s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/_chat_message.py
+[16.422s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/__init__.py
+[16.422s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[16.422s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/libchat_interfaces__rosidl_generator_py.so
+[16.422s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.422s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.422s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_c.c
+[16.422s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/__init__.py
+[16.483s] Listing '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces'...
+[16.483s] Compiling '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/__init__.py'...
+[16.483s] Listing '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg'...
+[16.483s] Compiling '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/__init__.py'...
+[16.483s] Compiling '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/_chat_message.py'...
+[16.483s] Listing '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv'...
+[16.483s] Compiling '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/__init__.py'...
+[16.483s] Compiling '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/_send_message.py'...
+[16.487s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.487s] -- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.487s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.487s] -- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.488s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.488s] -- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.488s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_py.so
+[16.488s] -- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_py.so" to ""
+[16.488s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/msg/ChatMessage.idl
+[16.488s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/srv/SendMessage.idl
+[16.488s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/msg/ChatMessage.msg
+[16.489s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/srv/SendMessage.srv
+[16.489s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/srv/SendMessage_Request.msg
+[16.489s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/srv/SendMessage_Response.msg
+[16.489s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/ament_index/resource_index/package_run_dependencies/chat_interfaces
+[16.489s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/ament_index/resource_index/parent_prefix_path/chat_interfaces
+[16.489s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/ament_prefix_path.sh
+[16.489s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/ament_prefix_path.dsv
+[16.489s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/path.sh
+[16.490s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/path.dsv
+[16.490s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/local_setup.bash
+[16.490s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/local_setup.sh
+[16.490s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/local_setup.zsh
+[16.491s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/local_setup.dsv
+[16.491s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/package.dsv
+[16.491s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/ament_index/resource_index/packages/chat_interfaces
+[16.491s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_cExport.cmake
+[16.491s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_cExport-noconfig.cmake
+[16.491s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[16.491s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.491s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[16.491s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.492s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cExport.cmake
+[16.492s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[16.492s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_cppExport.cmake
+[16.492s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.492s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.492s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[16.492s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.492s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cppExport.cmake
+[16.493s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[16.493s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_pyExport.cmake
+[16.493s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[16.493s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/rosidl_cmake-extras.cmake
+[16.493s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.493s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.493s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.493s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.493s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.493s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.493s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfacesConfig.cmake
+[16.493s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfacesConfig-version.cmake
+[16.493s] -- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/package.xml
+[16.495s] Invoked command in '/home/xiye/ROSChatr/build/chat_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/xiye/ROSChatr/build/chat_interfaces

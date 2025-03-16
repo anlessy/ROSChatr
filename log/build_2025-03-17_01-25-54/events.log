@@ -1,0 +1,540 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (chat_interfaces) JobQueued: {'identifier': 'chat_interfaces', 'dependencies': OrderedDict()}
+[0.000273] (roschat_ui) JobQueued: {'identifier': 'roschat_ui', 'dependencies': OrderedDict()}
+[0.000311] (chat_system) JobQueued: {'identifier': 'chat_system', 'dependencies': OrderedDict([('chat_interfaces', '/home/xiye/ROSChatr/install/chat_interfaces')])}
+[0.000351] (chat_interfaces) JobStarted: {'identifier': 'chat_interfaces'}
+[0.041476] (roschat_ui) JobStarted: {'identifier': 'roschat_ui'}
+[0.084447] (chat_interfaces) JobProgress: {'identifier': 'chat_interfaces', 'progress': 'cmake'}
+[0.084852] (chat_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/xiye/ROSChatr/src/chat_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/xiye/ROSChatr/install/chat_interfaces'], 'cwd': '/home/xiye/ROSChatr/build/chat_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'xiye'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xiye'), ('OLDPWD', '/home/xiye/ROSChatr/src'), ('JRE_HOME', '/opt/jdk1.8.0_291/jre'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1958'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9bacd3f162869c0fb4faa70967d6f5e4'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xiye'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'xiye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/opt/jdk1.8.0_291/bin:/home/xiye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin'), ('SESSION_MANAGER', 'local/xiye-virtual-machine:@/tmp/.ICE-unix/1958,unix/xiye-virtual-machine:/tmp/.ICE-unix/1958'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/97036257_c600_49bc_b78f_1a67a26e7f2b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_c:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('CLASSPATH', '.:/opt/jdk1.8.0_291/lib:/opt/jdk1.8.0_291/jre/lib:'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xiye/ROSChatr/build/chat_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9bacd3f162869c0fb4faa70967d6f5e4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/xiye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface/local/lib/python3.10/dist-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JDK_HOME', '/opt/jdk1.8.0_291'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_c:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble')]), 'shell': False}
+[0.098963] (-) TimerEvent: {}
+[0.199344] (-) TimerEvent: {}
+[0.300065] (-) TimerEvent: {}
+[0.400791] (-) TimerEvent: {}
+[0.402368] (chat_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500843] (-) TimerEvent: {}
+[0.538391] (chat_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.553588] (chat_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601246] (-) TimerEvent: {}
+[0.701952] (-) TimerEvent: {}
+[0.702361] (chat_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.709354] (chat_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.715289] (chat_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.716355] (chat_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.720171] (chat_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.802221] (-) TimerEvent: {}
+[0.888250] (chat_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.894884] (chat_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.895112] (chat_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.895537] (chat_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.902938] (-) TimerEvent: {}
+[1.003678] (-) TimerEvent: {}
+[1.095317] (chat_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.104389] (-) TimerEvent: {}
+[1.137068] (roschat_ui) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/roschat_ui', 'build', '--build-base', '/home/xiye/ROSChatr/build/roschat_ui/build', 'install', '--record', '/home/xiye/ROSChatr/build/roschat_ui/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/xiye/ROSChatr/src/roschat_ui', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'LANGUAGE': 'zh_CN:en', 'USER': 'xiye', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/xiye', 'OLDPWD': '/home/xiye/ROSChatr/src', 'JRE_HOME': '/opt/jdk1.8.0_291/jre', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1958', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9bacd3f162869c0fb4faa70967d6f5e4', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'xiye', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'xiye', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/opt/jdk1.8.0_291/bin:/home/xiye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin', 'SESSION_MANAGER': 'local/xiye-virtual-machine:@/tmp/.ICE-unix/1958,unix/xiye-virtual-machine:/tmp/.ICE-unix/1958', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/97036257_c600_49bc_b78f_1a67a26e7f2b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.167', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_c:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'CLASSPATH': '.:/opt/jdk1.8.0_291/lib:/opt/jdk1.8.0_291/jre/lib:', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/xiye/ROSChatr/build/roschat_ui', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9bacd3f162869c0fb4faa70967d6f5e4', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/xiye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/xiye/ROSChatr/build/roschat_ui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xiye/ROSChatr/install/roschat_ui/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface/local/lib/python3.10/dist-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JDK_HOME': '/opt/jdk1.8.0_291', 'CMAKE_PREFIX_PATH': '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_c:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface'}, 'shell': False}
+[1.205134] (-) TimerEvent: {}
+[1.305915] (-) TimerEvent: {}
+[1.406579] (-) TimerEvent: {}
+[1.507310] (-) TimerEvent: {}
+[1.515503] (roschat_ui) StdoutLine: {'line': b'running egg_info\n'}
+[1.516656] (roschat_ui) StdoutLine: {'line': b'creating ../../build/roschat_ui/roschat_ui.egg-info\n'}
+[1.517089] (roschat_ui) StdoutLine: {'line': b'writing ../../build/roschat_ui/roschat_ui.egg-info/PKG-INFO\n'}
+[1.517218] (roschat_ui) StdoutLine: {'line': b'writing dependency_links to ../../build/roschat_ui/roschat_ui.egg-info/dependency_links.txt\n'}
+[1.517432] (roschat_ui) StdoutLine: {'line': b'writing entry points to ../../build/roschat_ui/roschat_ui.egg-info/entry_points.txt\n'}
+[1.517502] (roschat_ui) StdoutLine: {'line': b'writing requirements to ../../build/roschat_ui/roschat_ui.egg-info/requires.txt\n'}
+[1.517580] (roschat_ui) StdoutLine: {'line': b'writing top-level names to ../../build/roschat_ui/roschat_ui.egg-info/top_level.txt\n'}
+[1.517741] (roschat_ui) StdoutLine: {'line': b"writing manifest file '../../build/roschat_ui/roschat_ui.egg-info/SOURCES.txt'\n"}
+[1.520279] (roschat_ui) StdoutLine: {'line': b"reading manifest file '../../build/roschat_ui/roschat_ui.egg-info/SOURCES.txt'\n"}
+[1.521165] (roschat_ui) StdoutLine: {'line': b"writing manifest file '../../build/roschat_ui/roschat_ui.egg-info/SOURCES.txt'\n"}
+[1.521428] (roschat_ui) StdoutLine: {'line': b'running build\n'}
+[1.521507] (roschat_ui) StdoutLine: {'line': b'running build_py\n'}
+[1.521746] (roschat_ui) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/build/roschat_ui/build\n'}
+[1.521920] (roschat_ui) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/build/roschat_ui/build/lib\n'}
+[1.521983] (roschat_ui) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/build/roschat_ui/build/lib/roschat_ui\n'}
+[1.522182] (roschat_ui) StdoutLine: {'line': b'copying roschat_ui/__init__.py -> /home/xiye/ROSChatr/build/roschat_ui/build/lib/roschat_ui\n'}
+[1.522487] (roschat_ui) StdoutLine: {'line': b'running install\n'}
+[1.522933] (roschat_ui) StdoutLine: {'line': b'running install_lib\n'}
+[1.524023] (roschat_ui) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/install/roschat_ui/lib/python3.10/site-packages/roschat_ui\n'}
+[1.524200] (roschat_ui) StdoutLine: {'line': b'copying /home/xiye/ROSChatr/build/roschat_ui/build/lib/roschat_ui/__init__.py -> /home/xiye/ROSChatr/install/roschat_ui/lib/python3.10/site-packages/roschat_ui\n'}
+[1.525021] (roschat_ui) StdoutLine: {'line': b'byte-compiling /home/xiye/ROSChatr/install/roschat_ui/lib/python3.10/site-packages/roschat_ui/__init__.py to __init__.cpython-310.pyc\n'}
+[1.525317] (roschat_ui) StdoutLine: {'line': b'running install_data\n'}
+[1.525473] (roschat_ui) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/install/roschat_ui/share/ament_index\n'}
+[1.525556] (roschat_ui) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/install/roschat_ui/share/ament_index/resource_index\n'}
+[1.525756] (roschat_ui) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/install/roschat_ui/share/ament_index/resource_index/packages\n'}
+[1.525912] (roschat_ui) StdoutLine: {'line': b'copying resource/roschat_ui -> /home/xiye/ROSChatr/install/roschat_ui/share/ament_index/resource_index/packages\n'}
+[1.526161] (roschat_ui) StdoutLine: {'line': b'copying package.xml -> /home/xiye/ROSChatr/install/roschat_ui/share/roschat_ui\n'}
+[1.526259] (roschat_ui) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.527791] (roschat_ui) StdoutLine: {'line': b'Copying ../../build/roschat_ui/roschat_ui.egg-info to /home/xiye/ROSChatr/install/roschat_ui/lib/python3.10/site-packages/roschat_ui-0.0.0-py3.10.egg-info\n'}
+[1.528511] (roschat_ui) StdoutLine: {'line': b'running install_scripts\n'}
+[1.548121] (roschat_ui) StdoutLine: {'line': b"writing list of installed files to '/home/xiye/ROSChatr/build/roschat_ui/install.log'\n"}
+[1.571972] (roschat_ui) CommandEnded: {'returncode': 0}
+[1.580824] (roschat_ui) JobEnded: {'identifier': 'roschat_ui', 'rc': 0}
+[1.608079] (-) TimerEvent: {}
+[1.708776] (-) TimerEvent: {}
+[1.786715] (chat_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.809011] (-) TimerEvent: {}
+[1.909746] (-) TimerEvent: {}
+[2.010461] (-) TimerEvent: {}
+[2.111190] (-) TimerEvent: {}
+[2.211915] (-) TimerEvent: {}
+[2.312653] (-) TimerEvent: {}
+[2.413399] (-) TimerEvent: {}
+[2.514109] (-) TimerEvent: {}
+[2.614823] (-) TimerEvent: {}
+[2.715561] (-) TimerEvent: {}
+[2.816813] (-) TimerEvent: {}
+[2.917529] (-) TimerEvent: {}
+[3.018255] (-) TimerEvent: {}
+[3.119022] (-) TimerEvent: {}
+[3.219632] (-) TimerEvent: {}
+[3.319945] (-) TimerEvent: {}
+[3.420655] (-) TimerEvent: {}
+[3.521894] (-) TimerEvent: {}
+[3.622608] (-) TimerEvent: {}
+[3.723339] (-) TimerEvent: {}
+[3.823647] (-) TimerEvent: {}
+[3.924374] (-) TimerEvent: {}
+[4.025048] (-) TimerEvent: {}
+[4.125568] (-) TimerEvent: {}
+[4.225924] (-) TimerEvent: {}
+[4.326741] (-) TimerEvent: {}
+[4.427054] (-) TimerEvent: {}
+[4.513806] (chat_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.527374] (-) TimerEvent: {}
+[4.627741] (-) TimerEvent: {}
+[4.728044] (-) TimerEvent: {}
+[4.743552] (chat_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.828402] (-) TimerEvent: {}
+[4.929014] (-) TimerEvent: {}
+[5.029371] (-) TimerEvent: {}
+[5.129714] (-) TimerEvent: {}
+[5.230289] (-) TimerEvent: {}
+[5.319287] (chat_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.331034] (-) TimerEvent: {}
+[5.431697] (-) TimerEvent: {}
+[5.532363] (-) TimerEvent: {}
+[5.632639] (-) TimerEvent: {}
+[5.733035] (-) TimerEvent: {}
+[5.833391] (-) TimerEvent: {}
+[5.933622] (-) TimerEvent: {}
+[6.033859] (-) TimerEvent: {}
+[6.134167] (-) TimerEvent: {}
+[6.234436] (-) TimerEvent: {}
+[6.335367] (-) TimerEvent: {}
+[6.435630] (-) TimerEvent: {}
+[6.536013] (-) TimerEvent: {}
+[6.636633] (-) TimerEvent: {}
+[6.737337] (-) TimerEvent: {}
+[6.837655] (-) TimerEvent: {}
+[6.938354] (-) TimerEvent: {}
+[7.038629] (-) TimerEvent: {}
+[7.139005] (-) TimerEvent: {}
+[7.198214] (chat_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.239637] (-) TimerEvent: {}
+[7.340336] (-) TimerEvent: {}
+[7.440719] (-) TimerEvent: {}
+[7.540987] (-) TimerEvent: {}
+[7.641638] (-) TimerEvent: {}
+[7.742059] (-) TimerEvent: {}
+[7.842682] (-) TimerEvent: {}
+[7.943339] (-) TimerEvent: {}
+[8.043643] (-) TimerEvent: {}
+[8.144045] (-) TimerEvent: {}
+[8.244349] (-) TimerEvent: {}
+[8.344651] (-) TimerEvent: {}
+[8.445313] (-) TimerEvent: {}
+[8.545978] (-) TimerEvent: {}
+[8.646627] (-) TimerEvent: {}
+[8.747294] (-) TimerEvent: {}
+[8.847655] (-) TimerEvent: {}
+[8.948313] (-) TimerEvent: {}
+[9.012096] (chat_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.048620] (-) TimerEvent: {}
+[9.148988] (-) TimerEvent: {}
+[9.249642] (-) TimerEvent: {}
+[9.350298] (-) TimerEvent: {}
+[9.450966] (-) TimerEvent: {}
+[9.551581] (-) TimerEvent: {}
+[9.652276] (-) TimerEvent: {}
+[9.752937] (-) TimerEvent: {}
+[9.853310] (-) TimerEvent: {}
+[9.931588] (chat_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.953667] (-) TimerEvent: {}
+[10.053955] (-) TimerEvent: {}
+[10.154610] (-) TimerEvent: {}
+[10.255319] (-) TimerEvent: {}
+[10.307809] (chat_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.355474] (-) TimerEvent: {}
+[10.410054] (chat_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[10.455605] (-) TimerEvent: {}
+[10.555939] (-) TimerEvent: {}
+[10.617917] (chat_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[10.656271] (-) TimerEvent: {}
+[10.743911] (chat_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[10.744122] (chat_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.744188] (chat_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[10.744240] (chat_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[10.756592] (-) TimerEvent: {}
+[10.781513] (chat_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[10.856944] (-) TimerEvent: {}
+[10.957596] (-) TimerEvent: {}
+[11.053729] (chat_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.057783] (-) TimerEvent: {}
+[11.158308] (-) TimerEvent: {}
+[11.259115] (-) TimerEvent: {}
+[11.359501] (-) TimerEvent: {}
+[11.459971] (-) TimerEvent: {}
+[11.560247] (-) TimerEvent: {}
+[11.660756] (-) TimerEvent: {}
+[11.761621] (-) TimerEvent: {}
+[11.861928] (-) TimerEvent: {}
+[11.962354] (-) TimerEvent: {}
+[12.063266] (-) TimerEvent: {}
+[12.163641] (-) TimerEvent: {}
+[12.263947] (-) TimerEvent: {}
+[12.364369] (-) TimerEvent: {}
+[12.465240] (-) TimerEvent: {}
+[12.548778] (chat_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.565930] (-) TimerEvent: {}
+[12.580311] (chat_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.648864] (chat_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.666646] (-) TimerEvent: {}
+[12.673181] (chat_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[12.681639] (chat_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/xiye/ROSChatr/build/chat_interfaces\n'}
+[12.686775] (chat_interfaces) CommandEnded: {'returncode': 0}
+[12.687396] (chat_interfaces) JobProgress: {'identifier': 'chat_interfaces', 'progress': 'build'}
+[12.688811] (chat_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xiye/ROSChatr/build/chat_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/xiye/ROSChatr/build/chat_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'xiye'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xiye'), ('OLDPWD', '/home/xiye/ROSChatr/src'), ('JRE_HOME', '/opt/jdk1.8.0_291/jre'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1958'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9bacd3f162869c0fb4faa70967d6f5e4'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xiye'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'xiye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/opt/jdk1.8.0_291/bin:/home/xiye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin'), ('SESSION_MANAGER', 'local/xiye-virtual-machine:@/tmp/.ICE-unix/1958,unix/xiye-virtual-machine:/tmp/.ICE-unix/1958'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/97036257_c600_49bc_b78f_1a67a26e7f2b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_c:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('CLASSPATH', '.:/opt/jdk1.8.0_291/lib:/opt/jdk1.8.0_291/jre/lib:'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xiye/ROSChatr/build/chat_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9bacd3f162869c0fb4faa70967d6f5e4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/xiye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface/local/lib/python3.10/dist-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JDK_HOME', '/opt/jdk1.8.0_291'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_c:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble')]), 'shell': False}
+[12.767279] (-) TimerEvent: {}
+[12.810163] (chat_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[12.867425] (chat_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.867571] (-) TimerEvent: {}
+[12.900631] (chat_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_chat_interfaces\n'}
+[12.967647] (-) TimerEvent: {}
+[13.068121] (-) TimerEvent: {}
+[13.168458] (-) TimerEvent: {}
+[13.268855] (-) TimerEvent: {}
+[13.322409] (chat_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[13.322934] (chat_interfaces) StdoutLine: {'line': b'creating chat_interfaces.egg-info\n'}
+[13.323113] (chat_interfaces) StdoutLine: {'line': b'writing chat_interfaces.egg-info/PKG-INFO\n'}
+[13.323256] (chat_interfaces) StdoutLine: {'line': b'writing dependency_links to chat_interfaces.egg-info/dependency_links.txt\n'}
+[13.323521] (chat_interfaces) StdoutLine: {'line': b'writing top-level names to chat_interfaces.egg-info/top_level.txt\n'}
+[13.323636] (chat_interfaces) StdoutLine: {'line': b"writing manifest file 'chat_interfaces.egg-info/SOURCES.txt'\n"}
+[13.325438] (chat_interfaces) StdoutLine: {'line': b"reading manifest file 'chat_interfaces.egg-info/SOURCES.txt'\n"}
+[13.325926] (chat_interfaces) StdoutLine: {'line': b"writing manifest file 'chat_interfaces.egg-info/SOURCES.txt'\n"}
+[13.368959] (-) TimerEvent: {}
+[13.441997] (chat_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_chat_interfaces_egg\n'}
+[13.467796] (chat_interfaces) StdoutLine: {'line': b'[  5%] Built target chat_interfaces__cpp\n'}
+[13.469246] (-) TimerEvent: {}
+[13.522359] (chat_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chat_interfaces/msg/detail/chat_message__functions.c.o\x1b[0m\n'}
+[13.540995] (chat_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chat_interfaces/srv/detail/send_message__functions.c.o\x1b[0m\n'}
+[13.561927] (chat_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[13.567568] (chat_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.569369] (-) TimerEvent: {}
+[13.571345] (chat_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.646402] (chat_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libchat_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[13.669582] (-) TimerEvent: {}
+[13.721855] (chat_interfaces) StdoutLine: {'line': b'[ 20%] Built target chat_interfaces__rosidl_generator_c\n'}
+[13.769746] (-) TimerEvent: {}
+[13.788465] (chat_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.791502] (chat_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.793732] (chat_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.872433] (-) TimerEvent: {}
+[13.973219] (-) TimerEvent: {}
+[14.073751] (-) TimerEvent: {}
+[14.110397] (chat_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chat_interfaces/msg/chat_message__type_support.cpp.o\x1b[0m\n'}
+[14.119714] (chat_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chat_interfaces/srv/send_message__type_support.cpp.o\x1b[0m\n'}
+[14.146073] (chat_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chat_interfaces/msg/detail/chat_message__type_support.cpp.o\x1b[0m\n'}
+[14.160373] (chat_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chat_interfaces/srv/detail/send_message__type_support.cpp.o\x1b[0m\n'}
+[14.173893] (-) TimerEvent: {}
+[14.174886] (chat_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chat_interfaces/msg/detail/dds_fastrtps/chat_message__type_support.cpp.o\x1b[0m\n'}
+[14.182366] (chat_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chat_interfaces/srv/detail/dds_fastrtps/send_message__type_support.cpp.o\x1b[0m\n'}
+[14.274677] (-) TimerEvent: {}
+[14.375081] (-) TimerEvent: {}
+[14.439901] (chat_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chat_interfaces/msg/chat_message__type_support.cpp.o\x1b[0m\n'}
+[14.441548] (chat_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chat_interfaces/srv/send_message__type_support.cpp.o\x1b[0m\n'}
+[14.475310] (-) TimerEvent: {}
+[14.480589] (chat_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chat_interfaces/msg/detail/chat_message__type_support.c.o\x1b[0m\n'}
+[14.495946] (chat_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chat_interfaces/srv/detail/send_message__type_support.c.o\x1b[0m\n'}
+[14.520678] (chat_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chat_interfaces/msg/detail/chat_message__type_support_c.cpp.o\x1b[0m\n'}
+[14.525247] (chat_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chat_interfaces/srv/detail/send_message__type_support_c.cpp.o\x1b[0m\n'}
+[14.575465] (-) TimerEvent: {}
+[14.632257] (chat_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.636194] (chat_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[14.649320] (chat_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libchat_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.675586] (-) TimerEvent: {}
+[14.775952] (-) TimerEvent: {}
+[14.816377] (chat_interfaces) StdoutLine: {'line': b'[ 66%] Built target chat_interfaces__rosidl_typesupport_introspection_c\n'}
+[14.830113] (chat_interfaces) StdoutLine: {'line': b'[ 66%] Built target chat_interfaces__rosidl_typesupport_cpp\n'}
+[14.833484] (chat_interfaces) StdoutLine: {'line': b'[ 66%] Built target chat_interfaces__rosidl_typesupport_c\n'}
+[14.859760] (chat_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[14.860785] (chat_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.876282] (-) TimerEvent: {}
+[14.976928] (-) TimerEvent: {}
+[14.987969] (chat_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libchat_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.003811] (chat_interfaces) StdoutLine: {'line': b'[ 74%] Built target chat_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[15.013436] (chat_interfaces) StdoutLine: {'line': b'[ 74%] Built target chat_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[15.077588] (-) TimerEvent: {}
+[15.089493] (chat_interfaces) StdoutLine: {'line': b'[ 74%] Built target chat_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[15.140530] (chat_interfaces) StdoutLine: {'line': b'[ 74%] Built target chat_interfaces\n'}
+[15.178293] (-) TimerEvent: {}
+[15.190023] (chat_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.279026] (-) TimerEvent: {}
+[15.379728] (-) TimerEvent: {}
+[15.480464] (-) TimerEvent: {}
+[15.581249] (-) TimerEvent: {}
+[15.681551] (-) TimerEvent: {}
+[15.709961] (chat_interfaces) StdoutLine: {'line': b'[ 76%] Built target chat_interfaces__py\n'}
+[15.773040] (chat_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat_interfaces/msg/_chat_message_s.c.o\x1b[0m\n'}
+[15.773865] (chat_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chat_interfaces/srv/_send_message_s.c.o\x1b[0m\n'}
+[15.782152] (-) TimerEvent: {}
+[15.882898] (-) TimerEvent: {}
+[15.894725] (chat_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chat_interfaces/libchat_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[15.960834] (chat_interfaces) StdoutLine: {'line': b'[ 84%] Built target chat_interfaces__rosidl_generator_py\n'}
+[15.983611] (-) TimerEvent: {}
+[16.073051] (chat_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.074851] (chat_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.075656] (chat_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/chat_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[16.084227] (-) TimerEvent: {}
+[16.184616] (-) TimerEvent: {}
+[16.227996] (chat_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.229964] (chat_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.230780] (chat_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.284958] (-) TimerEvent: {}
+[16.350543] (chat_interfaces) StdoutLine: {'line': b'[100%] Built target chat_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.352816] (chat_interfaces) StdoutLine: {'line': b'[100%] Built target chat_interfaces__rosidl_typesupport_c__pyext\n'}
+[16.353444] (chat_interfaces) StdoutLine: {'line': b'[100%] Built target chat_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[16.374709] (chat_interfaces) CommandEnded: {'returncode': 0}
+[16.375716] (chat_interfaces) JobProgress: {'identifier': 'chat_interfaces', 'progress': 'install'}
+[16.385485] (-) TimerEvent: {}
+[16.393962] (chat_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xiye/ROSChatr/build/chat_interfaces'], 'cwd': '/home/xiye/ROSChatr/build/chat_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'xiye'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xiye'), ('OLDPWD', '/home/xiye/ROSChatr/src'), ('JRE_HOME', '/opt/jdk1.8.0_291/jre'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1958'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9bacd3f162869c0fb4faa70967d6f5e4'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xiye'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'xiye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/opt/jdk1.8.0_291/bin:/home/xiye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin'), ('SESSION_MANAGER', 'local/xiye-virtual-machine:@/tmp/.ICE-unix/1958,unix/xiye-virtual-machine:/tmp/.ICE-unix/1958'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/97036257_c600_49bc_b78f_1a67a26e7f2b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_c:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('CLASSPATH', '.:/opt/jdk1.8.0_291/lib:/opt/jdk1.8.0_291/jre/lib:'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xiye/ROSChatr/build/chat_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9bacd3f162869c0fb4faa70967d6f5e4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/xiye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface/local/lib/python3.10/dist-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JDK_HOME', '/opt/jdk1.8.0_291'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_c:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble')]), 'shell': False}
+[16.410760] (chat_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.410984] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/ament_index/resource_index/rosidl_interfaces/chat_interfaces\n'}
+[16.411121] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces\n'}
+[16.411258] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv\n'}
+[16.411328] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail\n'}
+[16.411590] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__functions.h\n'}
+[16.411980] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.h\n'}
+[16.412073] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__struct.h\n'}
+[16.412300] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__functions.c\n'}
+[16.412470] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/send_message.h\n'}
+[16.412534] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg\n'}
+[16.412581] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.412632] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/chat_message.h\n'}
+[16.412780] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail\n'}
+[16.412830] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__struct.h\n'}
+[16.412876] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__functions.c\n'}
+[16.413002] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__functions.h\n'}
+[16.413139] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.h\n'}
+[16.413230] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/library_path.sh\n'}
+[16.413319] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/library_path.dsv\n'}
+[16.413515] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_c.so\n'}
+[16.413595] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_c.so" to ""\n'}
+[16.413645] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces\n'}
+[16.413689] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv\n'}
+[16.413798] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail\n'}
+[16.413962] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_fastrtps_c.h\n'}
+[16.414040] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg\n'}
+[16.414139] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.414216] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail\n'}
+[16.414323] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_fastrtps_c.h\n'}
+[16.414405] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[16.414608] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.414663] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces\n'}
+[16.414772] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv\n'}
+[16.414932] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail\n'}
+[16.414993] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_introspection_c.h\n'}
+[16.415039] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.c\n'}
+[16.415083] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg\n'}
+[16.415127] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail\n'}
+[16.415226] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_introspection_c.h\n'}
+[16.415274] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.c\n'}
+[16.415317] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.415361] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[16.415543] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.415603] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_c.so\n'}
+[16.415709] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[16.415792] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces\n'}
+[16.416012] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv\n'}
+[16.416073] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/send_message.hpp\n'}
+[16.416158] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail\n'}
+[16.416340] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__builder.hpp\n'}
+[16.416396] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__struct.hpp\n'}
+[16.416469] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.hpp\n'}
+[16.416602] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__traits.hpp\n'}
+[16.416899] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg\n'}
+[16.417012] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[16.417121] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail\n'}
+[16.417265] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__struct.hpp\n'}
+[16.417351] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__traits.hpp\n'}
+[16.417447] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__builder.hpp\n'}
+[16.417555] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.hpp\n'}
+[16.417674] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/chat_message.hpp\n'}
+[16.417720] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces\n'}
+[16.417764] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv\n'}
+[16.417883] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail\n'}
+[16.418012] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.418125] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/dds_fastrtps\n'}
+[16.418227] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg\n'}
+[16.418430] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.418556] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail\n'}
+[16.418701] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.418834] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/dds_fastrtps\n'}
+[16.418927] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.418982] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.419080] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces\n'}
+[16.419135] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv\n'}
+[16.419183] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail\n'}
+[16.419271] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__type_support.cpp\n'}
+[16.419394] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/srv/detail/send_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.419443] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg\n'}
+[16.419486] (chat_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail\n'}
+[16.419571] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__type_support.cpp\n'}
+[16.419678] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/include/chat_interfaces/chat_interfaces/msg/detail/chat_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.419725] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[16.419770] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.419813] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_cpp.so\n'}
+[16.419860] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[16.420059] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/pythonpath.sh\n'}
+[16.420225] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/pythonpath.dsv\n'}
+[16.420366] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info\n'}
+[16.420496] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[16.420556] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[16.420608] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[16.420658] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[16.420770] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces\n'}
+[16.420896] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.421060] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv\n'}
+[16.421183] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/_send_message_s.c\n'}
+[16.421243] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/_send_message.py\n'}
+[16.421358] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/__init__.py\n'}
+[16.421450] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.421724] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg\n'}
+[16.421786] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/_chat_message_s.c\n'}
+[16.421863] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/_chat_message.py\n'}
+[16.421909] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/__init__.py\n'}
+[16.421979] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.422115] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/libchat_interfaces__rosidl_generator_py.so\n'}
+[16.422176] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.422221] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.422265] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/_chat_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[16.422309] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/__init__.py\n'}
+[16.483042] (chat_interfaces) StdoutLine: {'line': b"Listing '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces'...\n"}
+[16.483181] (chat_interfaces) StdoutLine: {'line': b"Compiling '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/__init__.py'...\n"}
+[16.483283] (chat_interfaces) StdoutLine: {'line': b"Listing '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg'...\n"}
+[16.483362] (chat_interfaces) StdoutLine: {'line': b"Compiling '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/__init__.py'...\n"}
+[16.483408] (chat_interfaces) StdoutLine: {'line': b"Compiling '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/msg/_chat_message.py'...\n"}
+[16.483452] (chat_interfaces) StdoutLine: {'line': b"Listing '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv'...\n"}
+[16.483496] (chat_interfaces) StdoutLine: {'line': b"Compiling '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/__init__.py'...\n"}
+[16.483539] (chat_interfaces) StdoutLine: {'line': b"Compiling '/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/srv/_send_message.py'...\n"}
+[16.486077] (-) TimerEvent: {}
+[16.486915] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.487133] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.487346] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.487559] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.487820] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.487958] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages/chat_interfaces/chat_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.488020] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_py.so\n'}
+[16.488161] (chat_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xiye/ROSChatr/install/chat_interfaces/lib/libchat_interfaces__rosidl_generator_py.so" to ""\n'}
+[16.488362] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/msg/ChatMessage.idl\n'}
+[16.488440] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/srv/SendMessage.idl\n'}
+[16.488649] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/msg/ChatMessage.msg\n'}
+[16.488792] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/srv/SendMessage.srv\n'}
+[16.489021] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/srv/SendMessage_Request.msg\n'}
+[16.489126] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/srv/SendMessage_Response.msg\n'}
+[16.489258] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/ament_index/resource_index/package_run_dependencies/chat_interfaces\n'}
+[16.489503] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/ament_index/resource_index/parent_prefix_path/chat_interfaces\n'}
+[16.489661] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/ament_prefix_path.sh\n'}
+[16.489774] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/ament_prefix_path.dsv\n'}
+[16.489826] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/path.sh\n'}
+[16.490566] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/environment/path.dsv\n'}
+[16.490654] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/local_setup.bash\n'}
+[16.490717] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/local_setup.sh\n'}
+[16.490766] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/local_setup.zsh\n'}
+[16.490843] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/local_setup.dsv\n'}
+[16.490892] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/package.dsv\n'}
+[16.490937] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/ament_index/resource_index/packages/chat_interfaces\n'}
+[16.490989] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_cExport.cmake\n'}
+[16.491175] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.491294] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.491373] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.491496] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.491683] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.491821] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[16.491958] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.492119] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_cppExport.cmake\n'}
+[16.492197] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.492339] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.492450] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.492536] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.492657] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[16.492790] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.492920] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_pyExport.cmake\n'}
+[16.493177] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/export_chat_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.493238] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[16.493348] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.493424] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.493571] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.493619] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.493662] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.493705] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.493748] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfacesConfig.cmake\n'}
+[16.493792] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/cmake/chat_interfacesConfig-version.cmake\n'}
+[16.493835] (chat_interfaces) StdoutLine: {'line': b'-- Installing: /home/xiye/ROSChatr/install/chat_interfaces/share/chat_interfaces/package.xml\n'}
+[16.495655] (chat_interfaces) CommandEnded: {'returncode': 0}
+[16.509015] (chat_interfaces) JobEnded: {'identifier': 'chat_interfaces', 'rc': 0}
+[16.509680] (chat_system) JobStarted: {'identifier': 'chat_system'}
+[16.586653] (-) TimerEvent: {}
+[16.687194] (-) TimerEvent: {}
+[16.788126] (-) TimerEvent: {}
+[16.895272] (-) TimerEvent: {}
+[16.995554] (-) TimerEvent: {}
+[17.096677] (-) TimerEvent: {}
+[17.197420] (-) TimerEvent: {}
+[17.298125] (-) TimerEvent: {}
+[17.398898] (-) TimerEvent: {}
+[17.449578] (chat_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/chat_system', 'build', '--build-base', '/home/xiye/ROSChatr/build/chat_system/build', 'install', '--record', '/home/xiye/ROSChatr/build/chat_system/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/xiye/ROSChatr/src/chat_system', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'LANGUAGE': 'zh_CN:en', 'USER': 'xiye', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/xiye/ROSChatr/install/chat_interfaces/lib:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/xiye', 'OLDPWD': '/home/xiye/ROSChatr/src', 'JRE_HOME': '/opt/jdk1.8.0_291/jre', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1958', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9bacd3f162869c0fb4faa70967d6f5e4', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'xiye', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'xiye', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/opt/jdk1.8.0_291/bin:/home/xiye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin', 'SESSION_MANAGER': 'local/xiye-virtual-machine:@/tmp/.ICE-unix/1958,unix/xiye-virtual-machine:/tmp/.ICE-unix/1958', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/97036257_c600_49bc_b78f_1a67a26e7f2b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.167', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/xiye/ROSChatr/install/chat_interfaces:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_c:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'CLASSPATH': '.:/opt/jdk1.8.0_291/lib:/opt/jdk1.8.0_291/jre/lib:', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/xiye/ROSChatr/build/chat_system', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9bacd3f162869c0fb4faa70967d6f5e4', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/xiye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/xiye/ROSChatr/build/chat_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xiye/ROSChatr/install/chat_system/lib/python3.10/site-packages:/home/xiye/ROSChatr/install/chat_interfaces/local/lib/python3.10/dist-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_urdf/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_qos/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_python/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_launch/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface/local/lib/python3.10/dist-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo_harmonic/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_gazebo/lib/python3.10/site-packages:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JDK_HOME': '/opt/jdk1.8.0_291', 'CMAKE_PREFIX_PATH': '/home/xiye/ROSChatr/install/chat_interfaces:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_topic_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_tf_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_service_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_pkg_c:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_parameter_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_node_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_action_cpp:/mnt/hgfs/Ubuntu22.04_ros/dev_ws_1/install/learning_interface'}, 'shell': False}
+[17.499606] (-) TimerEvent: {}
+[17.600303] (-) TimerEvent: {}
+[17.701032] (-) TimerEvent: {}
+[17.797877] (chat_system) StdoutLine: {'line': b'running egg_info\n'}
+[17.798316] (chat_system) StdoutLine: {'line': b'creating ../../build/chat_system/chat_system.egg-info\n'}
+[17.798509] (chat_system) StdoutLine: {'line': b'writing ../../build/chat_system/chat_system.egg-info/PKG-INFO\n'}
+[17.798695] (chat_system) StdoutLine: {'line': b'writing dependency_links to ../../build/chat_system/chat_system.egg-info/dependency_links.txt\n'}
+[17.798846] (chat_system) StdoutLine: {'line': b'writing entry points to ../../build/chat_system/chat_system.egg-info/entry_points.txt\n'}
+[17.798898] (chat_system) StdoutLine: {'line': b'writing requirements to ../../build/chat_system/chat_system.egg-info/requires.txt\n'}
+[17.799067] (chat_system) StdoutLine: {'line': b'writing top-level names to ../../build/chat_system/chat_system.egg-info/top_level.txt\n'}
+[17.799135] (chat_system) StdoutLine: {'line': b"writing manifest file '../../build/chat_system/chat_system.egg-info/SOURCES.txt'\n"}
+[17.800415] (chat_system) StdoutLine: {'line': b"reading manifest file '../../build/chat_system/chat_system.egg-info/SOURCES.txt'\n"}
+[17.800945] (chat_system) StdoutLine: {'line': b"writing manifest file '../../build/chat_system/chat_system.egg-info/SOURCES.txt'\n"}
+[17.801097] (chat_system) StdoutLine: {'line': b'running build\n'}
+[17.801187] (-) TimerEvent: {}
+[17.801398] (chat_system) StdoutLine: {'line': b'running build_py\n'}
+[17.801463] (chat_system) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/build/chat_system/build\n'}
+[17.801600] (chat_system) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/build/chat_system/build/lib\n'}
+[17.801650] (chat_system) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/build/chat_system/build/lib/chat_system\n'}
+[17.801694] (chat_system) StdoutLine: {'line': b'copying chat_system/chat_client.py -> /home/xiye/ROSChatr/build/chat_system/build/lib/chat_system\n'}
+[17.801742] (chat_system) StdoutLine: {'line': b'copying chat_system/chat_server.py -> /home/xiye/ROSChatr/build/chat_system/build/lib/chat_system\n'}
+[17.801881] (chat_system) StdoutLine: {'line': b'copying chat_system/__init__.py -> /home/xiye/ROSChatr/build/chat_system/build/lib/chat_system\n'}
+[17.802039] (chat_system) StdoutLine: {'line': b'running install\n'}
+[17.802305] (chat_system) StdoutLine: {'line': b'running install_lib\n'}
+[17.802838] (chat_system) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/install/chat_system/lib/python3.10/site-packages/chat_system\n'}
+[17.802956] (chat_system) StdoutLine: {'line': b'copying /home/xiye/ROSChatr/build/chat_system/build/lib/chat_system/chat_client.py -> /home/xiye/ROSChatr/install/chat_system/lib/python3.10/site-packages/chat_system\n'}
+[17.803077] (chat_system) StdoutLine: {'line': b'copying /home/xiye/ROSChatr/build/chat_system/build/lib/chat_system/chat_server.py -> /home/xiye/ROSChatr/install/chat_system/lib/python3.10/site-packages/chat_system\n'}
+[17.803197] (chat_system) StdoutLine: {'line': b'copying /home/xiye/ROSChatr/build/chat_system/build/lib/chat_system/__init__.py -> /home/xiye/ROSChatr/install/chat_system/lib/python3.10/site-packages/chat_system\n'}
+[17.803943] (chat_system) StdoutLine: {'line': b'byte-compiling /home/xiye/ROSChatr/install/chat_system/lib/python3.10/site-packages/chat_system/chat_client.py to chat_client.cpython-310.pyc\n'}
+[17.804370] (chat_system) StdoutLine: {'line': b'byte-compiling /home/xiye/ROSChatr/install/chat_system/lib/python3.10/site-packages/chat_system/chat_server.py to chat_server.cpython-310.pyc\n'}
+[17.804789] (chat_system) StdoutLine: {'line': b'byte-compiling /home/xiye/ROSChatr/install/chat_system/lib/python3.10/site-packages/chat_system/__init__.py to __init__.cpython-310.pyc\n'}
+[17.804917] (chat_system) StdoutLine: {'line': b'running install_data\n'}
+[17.805075] (chat_system) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/install/chat_system/share/ament_index\n'}
+[17.805206] (chat_system) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/install/chat_system/share/ament_index/resource_index\n'}
+[17.805256] (chat_system) StdoutLine: {'line': b'creating /home/xiye/ROSChatr/install/chat_system/share/ament_index/resource_index/packages\n'}
+[17.805353] (chat_system) StdoutLine: {'line': b'copying resource/chat_system -> /home/xiye/ROSChatr/install/chat_system/share/ament_index/resource_index/packages\n'}
+[17.805428] (chat_system) StdoutLine: {'line': b'copying package.xml -> /home/xiye/ROSChatr/install/chat_system/share/chat_system\n'}
+[17.805639] (chat_system) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.806953] (chat_system) StdoutLine: {'line': b'Copying ../../build/chat_system/chat_system.egg-info to /home/xiye/ROSChatr/install/chat_system/lib/python3.10/site-packages/chat_system-0.0.0-py3.10.egg-info\n'}
+[17.807639] (chat_system) StdoutLine: {'line': b'running install_scripts\n'}
+[17.825432] (chat_system) StdoutLine: {'line': b'Installing chat_client script to /home/xiye/ROSChatr/install/chat_system/lib/chat_system\n'}
+[17.825728] (chat_system) StdoutLine: {'line': b'Installing chat_server script to /home/xiye/ROSChatr/install/chat_system/lib/chat_system\n'}
+[17.825976] (chat_system) StdoutLine: {'line': b"writing list of installed files to '/home/xiye/ROSChatr/build/chat_system/install.log'\n"}
+[17.847118] (chat_system) CommandEnded: {'returncode': 0}
+[17.852040] (chat_system) JobEnded: {'identifier': 'chat_system', 'rc': 0}
+[17.852864] (-) EventReactorShutdown: {}

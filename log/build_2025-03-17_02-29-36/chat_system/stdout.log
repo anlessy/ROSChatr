@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/chat_system/chat_system.egg-info/PKG-INFO
+writing dependency_links to ../../build/chat_system/chat_system.egg-info/dependency_links.txt
+writing entry points to ../../build/chat_system/chat_system.egg-info/entry_points.txt
+writing requirements to ../../build/chat_system/chat_system.egg-info/requires.txt
+writing top-level names to ../../build/chat_system/chat_system.egg-info/top_level.txt
+reading manifest file '../../build/chat_system/chat_system.egg-info/SOURCES.txt'
+writing manifest file '../../build/chat_system/chat_system.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/xiye/ROSChatr/install/chat_system/lib/python3.10/site-packages/chat_system-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/chat_system/chat_system.egg-info to /home/xiye/ROSChatr/install/chat_system/lib/python3.10/site-packages/chat_system-0.0.0-py3.10.egg-info
+running install_scripts
+Installing chat_client script to /home/xiye/ROSChatr/install/chat_system/lib/chat_system
+Installing chat_server script to /home/xiye/ROSChatr/install/chat_system/lib/chat_system
+writing list of installed files to '/home/xiye/ROSChatr/build/chat_system/install.log'

@@ -1,0 +1,4 @@
+{
+    "ros.distro": "humble",
+    "cmake.sourceDirectory": "/home/xiye/ROSChatr/src/chat_interfaces"
+}

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qyj/chat_ws/src/chat_interfaces
+CMAKE_SOURCE_DIR = /home/xiye/ROSChatr/src/chat_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qyj/chat_ws/build/chat_interfaces
+CMAKE_BINARY_DIR = /home/xiye/ROSChatr/build/chat_interfaces
 
 # Utility rule file for ament_cmake_python_build_chat_interfaces_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_chat_interfaces_egg.dir/compiler_dep
 include CMakeFiles/ament_cmake_python_build_chat_interfaces_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_chat_interfaces_egg:
-	cd /home/qyj/chat_ws/build/chat_interfaces/ament_cmake_python/chat_interfaces && /usr/bin/python3 setup.py egg_info
+	cd /home/xiye/ROSChatr/build/chat_interfaces/ament_cmake_python/chat_interfaces && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_chat_interfaces_egg: CMakeFiles/ament_cmake_python_build_chat_interfaces_egg
 ament_cmake_python_build_chat_interfaces_egg: CMakeFiles/ament_cmake_python_build_chat_interfaces_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_chat_interfaces_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_chat_interfaces_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_chat_interfaces_egg.dir/depend:
-	cd /home/qyj/chat_ws/build/chat_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qyj/chat_ws/src/chat_interfaces /home/qyj/chat_ws/src/chat_interfaces /home/qyj/chat_ws/build/chat_interfaces /home/qyj/chat_ws/build/chat_interfaces /home/qyj/chat_ws/build/chat_interfaces/CMakeFiles/ament_cmake_python_build_chat_interfaces_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xiye/ROSChatr/build/chat_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xiye/ROSChatr/src/chat_interfaces /home/xiye/ROSChatr/src/chat_interfaces /home/xiye/ROSChatr/build/chat_interfaces /home/xiye/ROSChatr/build/chat_interfaces /home/xiye/ROSChatr/build/chat_interfaces/CMakeFiles/ament_cmake_python_build_chat_interfaces_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_chat_interfaces_egg.dir/depend
 

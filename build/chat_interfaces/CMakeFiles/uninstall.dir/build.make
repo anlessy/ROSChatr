@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qyj/chat_ws/src/chat_interfaces
+CMAKE_SOURCE_DIR = /home/xiye/ROSChatr/src/chat_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qyj/chat_ws/build/chat_interfaces
+CMAKE_BINARY_DIR = /home/xiye/ROSChatr/build/chat_interfaces
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/qyj/chat_ws/build/chat_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qyj/chat_ws/src/chat_interfaces /home/qyj/chat_ws/src/chat_interfaces /home/qyj/chat_ws/build/chat_interfaces /home/qyj/chat_ws/build/chat_interfaces /home/qyj/chat_ws/build/chat_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xiye/ROSChatr/build/chat_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xiye/ROSChatr/src/chat_interfaces /home/xiye/ROSChatr/src/chat_interfaces /home/xiye/ROSChatr/build/chat_interfaces /home/xiye/ROSChatr/build/chat_interfaces /home/xiye/ROSChatr/build/chat_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qyj/chat_ws/src/chat_interfaces
+CMAKE_SOURCE_DIR = /home/xiye/ROSChatr/src/chat_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qyj/chat_ws/build/chat_interfaces
+CMAKE_BINARY_DIR = /home/xiye/ROSChatr/build/chat_interfaces
 
 # Utility rule file for chat_interfaces.
 
@@ -66,8 +66,8 @@ include CMakeFiles/chat_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/chat_interfaces.dir/progress.make
 
-CMakeFiles/chat_interfaces: /home/qyj/chat_ws/src/chat_interfaces/msg/ChatMessage.msg
-CMakeFiles/chat_interfaces: /home/qyj/chat_ws/src/chat_interfaces/srv/SendMessage.srv
+CMakeFiles/chat_interfaces: /home/xiye/ROSChatr/src/chat_interfaces/msg/ChatMessage.msg
+CMakeFiles/chat_interfaces: /home/xiye/ROSChatr/src/chat_interfaces/srv/SendMessage.srv
 CMakeFiles/chat_interfaces: rosidl_cmake/srv/SendMessage_Request.msg
 CMakeFiles/chat_interfaces: rosidl_cmake/srv/SendMessage_Response.msg
 
@@ -84,6 +84,6 @@ CMakeFiles/chat_interfaces.dir/clean:
 .PHONY : CMakeFiles/chat_interfaces.dir/clean
 
 CMakeFiles/chat_interfaces.dir/depend:
-	cd /home/qyj/chat_ws/build/chat_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qyj/chat_ws/src/chat_interfaces /home/qyj/chat_ws/src/chat_interfaces /home/qyj/chat_ws/build/chat_interfaces /home/qyj/chat_ws/build/chat_interfaces /home/qyj/chat_ws/build/chat_interfaces/CMakeFiles/chat_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xiye/ROSChatr/build/chat_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xiye/ROSChatr/src/chat_interfaces /home/xiye/ROSChatr/src/chat_interfaces /home/xiye/ROSChatr/build/chat_interfaces /home/xiye/ROSChatr/build/chat_interfaces /home/xiye/ROSChatr/build/chat_interfaces/CMakeFiles/chat_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/chat_interfaces.dir/depend
 

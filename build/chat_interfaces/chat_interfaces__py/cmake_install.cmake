@@ -1,8 +1,8 @@
-# Install script for directory: /home/qyj/chat_ws/build/chat_interfaces/chat_interfaces__py
+# Install script for directory: /home/xiye/ROSChatr/build/chat_interfaces/chat_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/qyj/chat_ws/install/chat_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/xiye/ROSChatr/install/chat_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

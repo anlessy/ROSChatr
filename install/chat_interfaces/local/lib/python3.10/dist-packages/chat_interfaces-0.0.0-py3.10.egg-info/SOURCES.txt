@@ -4,3 +4,7 @@ chat_interfaces.egg-info/PKG-INFO
 chat_interfaces.egg-info/SOURCES.txt
 chat_interfaces.egg-info/dependency_links.txt
 chat_interfaces.egg-info/top_level.txt
+chat_interfaces/msg/__init__.py
+chat_interfaces/msg/_chat_message.py
+chat_interfaces/srv/__init__.py
+chat_interfaces/srv/_send_message.py
