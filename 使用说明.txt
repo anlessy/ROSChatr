@@ -1,0 +1,7 @@
+ros2 run chat_system chat_server
+
+
+ros2 run chat_system chat_client
+
+
+ros2 run chat_system chat_client

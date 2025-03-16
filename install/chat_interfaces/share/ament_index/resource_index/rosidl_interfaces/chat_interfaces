@@ -1,0 +1,6 @@
+msg/ChatMessage.idl
+msg/ChatMessage.msg
+srv/SendMessage.idl
+srv/SendMessage.srv
+srv/SendMessage_Request.msg
+srv/SendMessage_Response.msg
