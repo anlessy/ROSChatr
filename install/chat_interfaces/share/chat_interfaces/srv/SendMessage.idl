@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chat_interfaces/srv/SendMessage.srv
+// generated code does not contain a copyright notice
+
+#include "chat_interfaces/msg/ChatMessage.idl"
+
+module chat_interfaces {
+  module srv {
+    struct SendMessage_Request {
+      chat_interfaces::msg::ChatMessage message;
+    };
+    struct SendMessage_Response {
+      boolean success;
+    };
+  };
+};
